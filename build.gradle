@@ -1,0 +1,42 @@
+plugins {
+    id "net.serenity-bdd.serenity-gradle-plugin" version "3.9.8"
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+defaultTasks 'clean', 'test', 'aggregate'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    serenityCore = '3.9.8'
+    appiumVersion = "8.3.0"
+}
+
+dependencies {
+    implementation "net.serenity-bdd:serenity-core:${serenityCore}"
+    implementation "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCore}"
+    implementation "net.serenity-bdd:serenity-screenplay-rest:${serenityCore}"
+    testImplementation "net.serenity-bdd:serenity-junit:${serenityCore}"
+    testImplementation "net.serenity-bdd:serenity-cucumber:${serenityCore}"
+    testImplementation "io.appium:java-client:${appiumVersion}"
+    implementation 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.3'
+    implementation 'junit:junit:4.13'
+}
+
+test {
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)
