@@ -16,14 +16,14 @@ jobs:
       command-pre-execute: 'gradle clean clearReports'
       command-execute: 'gradle clean test -Denvironment=androidBs'
       command-post-execute: 'gradle generate Reports'
-      repository: 'bbog-pfm-automated-testing'
+      repository: ' bbog-bm-automated-testing'
       use-aws-credentials: false
       debug: true
-      java-version: "8"
-      prefix-team: 'PFM'
+      java-version: "17"
+      prefix-team: 'BM'
       path-report-file: target/destination/cucumber.json
-      test-plan-key: EFI-434
-      test-exec-key: EFI-481
+      test-plan-key: ACD-1
+      test-exec-key: ACD-349
       files-to-export: >  
         target/site/serenity/serenity-summary.html
         target/site/serenity/results.csv
@@ -38,10 +38,10 @@ jobs:
   integration-security-tests:
     uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v6
     with:
-      prefix-team: 'PFM'
+      prefix-team: 'BM'
       environment: st_pipeline
       release-id-steward: ${{ inputs.release_id }}
-      repository: 'bbog-pfm-automated-testing'
+      repository: 'bbog-bm-automated-testing'
       target-url-zap: ''
     secrets:
         DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}

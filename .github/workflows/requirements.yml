@@ -10,8 +10,8 @@ jobs:
   requirements:
     uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/requirements_frontend.yml@v6
     with:
-      project-name: bbog-pfm-automated-testing
-      project-key: bbog-pfm-automated-testing
+      project-name: bbog-bm-automated-testing
+      project-key:  bbog-bm-automated-testing
       language: java
       sonar-project-properties-file: 'sonar-project-custom.properties'
     secrets: inherit
