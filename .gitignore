@@ -9,7 +9,7 @@ test-integration.txt
 .env
 
 ### Maven or Gradle ###
-.gradle
+.gradle/
 build
 history
 pom.xml.tag
