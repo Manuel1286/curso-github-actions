@@ -10,6 +10,7 @@ test-integration.txt
 
 ### Maven or Gradle ###
 .gradle/
+.gradle/*.lock
 build
 history
 pom.xml.tag

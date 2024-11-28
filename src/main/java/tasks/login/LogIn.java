@@ -1,6 +1,7 @@
 package tasks.login;
 
 import interactions.ModalDevice;
+import interactions.ValidateDemo;
 import models.UserLoginData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -23,14 +24,15 @@ public class LogIn implements Task {
   @Override
   public <T extends Actor> void performAs(T actor) {
     actor.attemptsTo(
-        Click.on(TYPE_DOCUMENT),
-        SelectDocuments.withName(loginData.getDocumentType()),
-        Click.on(DOCUMENT_NUMBER),
-        Enter.theValue(loginData.getDocumentNumber()).into(DOCUMENT_NUMBER),
-        Click.on(KEY),
-        Enter.theValue(loginData.getPassword()).into(KEY),
-        Click.on(LOGIN_BUTTON),
-        ModalDevice.modalDevice()
+            ValidateDemo.toTheApplication(),
+            Click.on(TYPE_DOCUMENT),
+            SelectDocuments.withName(loginData.getDocumentType()),
+            Click.on(DOCUMENT_NUMBER),
+            Enter.theValue(loginData.getDocumentNumber()).into(DOCUMENT_NUMBER),
+            Click.on(KEY),
+            Enter.theValue(loginData.getPassword()).into(KEY),
+            Click.on(LOGIN_BUTTON),
+            ModalDevice.modalDevice()
     );
 
   }
