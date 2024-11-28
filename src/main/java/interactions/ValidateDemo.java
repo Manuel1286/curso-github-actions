@@ -21,7 +21,7 @@ public class ValidateDemo implements Interaction {
                         Click.on(BUTTON_SKIP)
                 );
             } else {
-                System.out.println("No se encontró el botón Demo");
+                System.out.println("No se encontrÃ³ el botÃ³n Demo");
             }
         }
         }
