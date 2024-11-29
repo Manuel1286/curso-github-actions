@@ -11,6 +11,7 @@ import org.json.simple.parser.ParseException;
 import org.openqa.selenium.JavascriptExecutor;
 import stepdefinitions.actors.EnvironmentCast;
 import utils.BrowserstackLogs;
+import utils.ConexionBrowserStackLocal;
 
 
 import static net.serenitybdd.core.Serenity.getDriver;
@@ -36,6 +37,9 @@ public class Hooks {
         }
         BrowserstackLogs.informationBrowserstackLogs(getDriver());
     }
-
+    @AfterAll
+    public static void stopTunnel() throws Exception {
+        ConexionBrowserStackLocal.browserStackLocalfinish();
+    }
 }
 
