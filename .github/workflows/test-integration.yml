@@ -17,7 +17,7 @@ jobs:
       command-pre-execute: 'gradle clean clearReports'
       command-execute: 'gradle clean test -Denvironment=androidBs'
       command-post-execute: 'gradle generate Reports'
-      repository: ' bbog-bm-automated-testing'
+      repository: 'bbog-bm-automated-testing'
       use-aws-credentials: false
       debug: true
       java-version: "17"
