@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "json:target/destination/cucumber.json"
         },
         features = {"src/test/resources/features/"},
-        tags = "@TEST_EFI-1635",
+        tags = "@AFC",
         glue = {"stepdefinitions"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )

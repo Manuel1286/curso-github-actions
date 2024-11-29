@@ -1,6 +1,7 @@
 package utils;
 
 import net.serenitybdd.core.Serenity;
+
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;

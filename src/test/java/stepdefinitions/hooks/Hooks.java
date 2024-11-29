@@ -7,10 +7,11 @@ import io.cucumber.java.Scenario;
 import net.serenitybdd.screenplay.actors.OnStage;
 
 import net.thucydides.core.util.EnvironmentVariables;
+import org.json.simple.parser.ParseException;
 import org.openqa.selenium.JavascriptExecutor;
 import stepdefinitions.actors.EnvironmentCast;
 import utils.BrowserstackLogs;
-import utils.ConexionBrowserStackLocal;
+
 
 import static net.serenitybdd.core.Serenity.getDriver;
 
@@ -24,7 +25,7 @@ public class Hooks {
 
     }
     @After
-    public void checkTestCase(Scenario scenario) {
+    public void checkTestCase(Scenario scenario) throws ParseException {
         JavascriptExecutor jse = (JavascriptExecutor) getDriver();
         if (scenario.isFailed()) {
             jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\","
@@ -35,9 +36,6 @@ public class Hooks {
         }
         BrowserstackLogs.informationBrowserstackLogs(getDriver());
     }
-    @AfterAll
-    public static void stopTunnel() throws Exception {
-        ConexionBrowserStackLocal.browserStackLocalfinish();
-    }
+
 }
 
