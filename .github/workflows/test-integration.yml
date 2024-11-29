@@ -5,6 +5,7 @@ on:
     branches:
       - staging
       - master
+      - Feature/*
   workflow_dispatch:
 
 jobs:
