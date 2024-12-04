@@ -4,7 +4,7 @@
 @AFC
 Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajos e información para validar mis saldos detallados del producto AFC permitidos desde la app
 
-@Prueba
+  @Prueba
   Escenario: Validar que el usuario visualice la informacion de saldos y atajos de su cuenta AFC
     Dado que Francisco ingresa a la aplicacion de banca movil
     Cuando el ingresa a su producto "AFC"
