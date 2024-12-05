@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 
 public class ValidateDemo implements Interaction {
 
-  private static final Logger logger = LoggerFactory.getLogger(ValidateDemo.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(ValidateDemo.class);
 
   public static ValidateDemo toTheApplication() {
     return instrumented(ValidateDemo.class);
@@ -21,7 +21,7 @@ public class ValidateDemo implements Interaction {
     if (BUTTON_SKIP.resolveFor(actor).isPresent()) {
       actor.attemptsTo(Click.on(BUTTON_SKIP));
     } else {
-      logger.warn("No se encontró el botón Demo");
+      LOGGER.warn("No se encontró el botón Demo");
     }
   }
 }
