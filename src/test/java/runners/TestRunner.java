@@ -11,4 +11,4 @@ import org.junit.runner.RunWith;
     tags = "@AFC",
     glue = {"stepdefinitions"},
     snippets = CucumberOptions.SnippetType.CAMELCASE)
-public class TestRunner {}
+public class TestRunner { }

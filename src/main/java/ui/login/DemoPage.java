@@ -4,6 +4,7 @@ import io.appium.java_client.AppiumBy;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class DemoPage {
+  private DemoPage() { }
 
   public static final Target TITLE_DEMO =
       Target.the("titulo en pagina demo")

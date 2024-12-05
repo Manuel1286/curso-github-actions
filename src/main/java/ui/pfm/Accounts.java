@@ -3,7 +3,7 @@ package ui.pfm;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class Accounts {
-  private Accounts() {}
+  private Accounts() { }
 
   public static final String LBL_ALL_ACCOUNTS =
       "#card-list-0 > div.bdb-ml-card-list__main-content > "

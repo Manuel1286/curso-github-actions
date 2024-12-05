@@ -12,7 +12,7 @@ import org.hamcrest.CoreMatchers;
 import org.hamcrest.collection.IsIterableContainingInOrder;
 
 public class CommonQuestions {
-  private CommonQuestions() {}
+  private CommonQuestions() { }
 
   public static void textEquals(Target target, String label) {
 

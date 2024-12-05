@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class TransferDonationPage {
-  private TransferDonationPage() {}
+  private TransferDonationPage() { }
 
   public static final Target OPT_DONATION_ACCORDION =
       Target.the("opción de seleccionar la opción de Donaciones").locatedBy("#bdb-grid-item-5");

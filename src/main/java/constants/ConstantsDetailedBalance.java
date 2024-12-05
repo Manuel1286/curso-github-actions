@@ -1,7 +1,7 @@
 package constants;
 
 public class ConstantsDetailedBalance {
-  private ConstantsDetailedBalance() {}
+  private ConstantsDetailedBalance() { }
 
   public static final String LBL_AVAILABLE_BALANCE_VALUE = "Saldo en pesos diponible de la cuenta";
   public static final String LBL_NUMBER_ACCOUNT = "Numero de cuenta de producto";

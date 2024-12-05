@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class TransferCreditUsePage {
-  private TransferCreditUsePage() {}
+  private TransferCreditUsePage() { }
 
   public static final String TITLE_PRODUCT_DETAIL_HOST_TRANSFER =
       "body > app-root > ion-app > ion-router-outlet > bdb-transfers-detail > ion-content > div > div.transfers-accounts > div > bdb-ml-bm-content-title";

@@ -1,6 +1,7 @@
 package constants;
 
 public class ConstantsMovements {
+  private ConstantsMovements() { }
 
   public static final String LBL_FILTER_WORD = "Palabra";
   public static final String LBL_FILTER_DATE = "Fecha";

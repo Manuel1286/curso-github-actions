@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 public class ShadowRoot {
 
-  private ShadowRoot() {}
+  private ShadowRoot() { }
 
   private static final String QUERY = "return arguments[0].shadowRoot.querySelector";
   private static final JavascriptExecutor JS_EXECUTOR = (JavascriptExecutor) getDriver();

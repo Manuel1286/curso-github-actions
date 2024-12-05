@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class PaymentPage {
-  private PaymentPage() {}
+  private PaymentPage() { }
 
   public static final String OPT_OWN_PRODUCTS = "#item_0";
   public static final String OPT_ENROLLED_PRODUCTS = "#item_1";

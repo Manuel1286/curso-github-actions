@@ -7,7 +7,7 @@ import java.util.UUID;
 public class ConexionBrowserStackLocal {
   static EnvariomentValues env = new EnvariomentValues();
 
-  private ConexionBrowserStackLocal() {}
+  private ConexionBrowserStackLocal() { }
 
   static Local bsLocal = new Local();
   static HashMap<String, String> bsLocalArgs = new HashMap<>();

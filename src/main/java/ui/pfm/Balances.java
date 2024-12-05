@@ -3,7 +3,7 @@ package ui.pfm;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class Balances {
-  private Balances() {}
+  private Balances() { }
 
   public static final Target BALANCES_ALL_ACCOUNTS =
       Target.the("Saldo todas tus cuentas")

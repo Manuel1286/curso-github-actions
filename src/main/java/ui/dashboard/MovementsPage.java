@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class MovementsPage {
-  private MovementsPage() {}
+  private MovementsPage() { }
 
   public static final Target LBL_PRODUCT_NAME =
       Target.the("label nombre del producto")

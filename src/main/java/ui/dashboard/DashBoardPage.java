@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class DashBoardPage {
 
-  private DashBoardPage() {}
+  private DashBoardPage() { }
 
   public static final Target DOCUMENTS_OPTION =
       Target.the("módulo de documentos").locatedBy("#dash-documents-button");
@@ -67,7 +67,7 @@ public class DashBoardPage {
   public static final Target EXTERNAL_OPTIONS_THREE =
       Target.the("Opciones externas de los crediservice")
           .located(By.xpath("((//div[@id='bdb-product-info-card-options']//div)[3])"));
-  public static final Target ProductosDashboard =
+  public static final Target PRODUCT_DASH =
       Target.the("Opciones externas de los cr?ditos de libranza")
           .locatedBy("//*[contains(text(),'{}')]");
   public static final Target PRODUCT_CARDS_LOGIN =

@@ -12,11 +12,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ShadowRoot {
 
-  private ShadowRoot() {}
+  private ShadowRoot() { }
 
   private static final String QUERY = "return arguments[0].shadowRoot.querySelector";
   private static final String QUERY_LIST = "return arguments[0].shadowRoot.querySelectorAll";
-  private static final JavascriptExecutor jsExecutor = (JavascriptExecutor) getDriver();
+  private static final JavascriptExecutor JS_EXECUTOR = (JavascriptExecutor) getDriver();
+
 
   public static void clickOnElementInsideOneShadowRoot(
       String firstShadowHost, String firstNestedShadowedInput) {
@@ -73,11 +74,11 @@ public class ShadowRoot {
   }
 
   public static void scrollToBottom(WebElement el) {
-    jsExecutor.executeScript("arguments[0].scrollIntoView(arguments[1]);", el, false);
+    JS_EXECUTOR.executeScript("arguments[0].scrollIntoView(arguments[1]);", el, false);
   }
 
   public static void scrollToTop(WebElement el) {
-    jsExecutor.executeScript("arguments[0].scrollIntoView(arguments[1]);", el, true);
+    JS_EXECUTOR.executeScript("arguments[0].scrollIntoView(arguments[1]);", el, true);
   }
 
   public static void sendKeysByShadowRoot(
@@ -92,7 +93,7 @@ public class ShadowRoot {
     findShadowHost =
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(firstShadowHost)));
     return (List<WebElement>)
-        jsExecutor.executeScript(
+            JS_EXECUTOR.executeScript(
             QUERY_LIST + "('" + firstNestedShadowedInput + "');", findShadowHost);
   }
 
@@ -101,7 +102,7 @@ public class ShadowRoot {
     WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
     findShadowHost = wait.until(ExpectedConditions.presenceOfElementLocated(elementHost));
     return (List<WebElement>)
-        jsExecutor.executeScript(
+            JS_EXECUTOR.executeScript(
             QUERY_LIST + "('" + firstNestedShadowedInput + "');", findShadowHost);
   }
 
@@ -120,26 +121,26 @@ public class ShadowRoot {
     elementHost = By.cssSelector(firstShadowHost);
     findShadowHost = getDriver().findElement(elementHost);
     return (WebElement)
-        jsExecutor.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", findShadowHost);
+            JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", findShadowHost);
   }
 
   private static WebElement firstJsExecutorMethod(By selector, String firstNestedShadowedInput) {
     WebElement findShadowHost;
     findShadowHost = getDriver().findElement(selector);
     return (WebElement)
-        jsExecutor.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", findShadowHost);
+            JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", findShadowHost);
   }
 
   public static WebElement firstJsExecutorMethod(
       WebElement hostNode, String firstNestedShadowedInput) {
     return (WebElement)
-        jsExecutor.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", hostNode);
+            JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", hostNode);
   }
 
   private static WebElement secondJsExecutorMethod(
       String firstShadowHost, String firstNestedShadowedInput, String secondNestedShadowedInput) {
     return (WebElement)
-        jsExecutor.executeScript(
+            JS_EXECUTOR.executeScript(
             QUERY + "('" + secondNestedShadowedInput + "');",
             firstJsExecutorMethod(firstShadowHost, firstNestedShadowedInput));
   }

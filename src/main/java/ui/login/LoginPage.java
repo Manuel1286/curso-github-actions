@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class LoginPage {
 
-  private LoginPage() {}
+  private LoginPage() { }
 
   public static final Target TYPE_DOCUMENT =
       Target.the("Opciones tipo de documento")

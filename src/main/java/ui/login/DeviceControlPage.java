@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class DeviceControlPage {
 
-  private DeviceControlPage() {}
+  private DeviceControlPage() { }
 
   public static final Target TITLE =
       Target.the("titulo del control de dispositivos")

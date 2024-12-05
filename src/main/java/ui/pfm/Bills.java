@@ -1,7 +1,7 @@
 package ui.pfm;
 
 public class Bills {
-  private Bills() {}
+  private Bills() { }
 
   public static final String SDR_CATEGORIES =
       "body > app-root > ion-app > ion-router-outlet >"

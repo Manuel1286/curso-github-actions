@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class TransferHistoryPage {
-  private TransferHistoryPage() {}
+  private TransferHistoryPage() { }
 
   public static final Target OPT_TRANSFER_HISTORY_ACCORDION =
       Target.the("opción de seleccionar Historial en Transferencias").locatedBy("#bdb-grid-item-6");

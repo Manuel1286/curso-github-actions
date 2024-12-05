@@ -1,7 +1,7 @@
 package constants;
 
 public class ConstantsDetailedBalanceSwipeHeader {
-  private ConstantsDetailedBalanceSwipeHeader() {}
+  private ConstantsDetailedBalanceSwipeHeader() { }
 
   public static final String LBL_EXCHANGE_BALANCE = "Saldo en canje";
   public static final String LBL_QUOTA_USED = "Cupo utilizado";

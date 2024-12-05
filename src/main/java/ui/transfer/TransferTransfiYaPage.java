@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class TransferTransfiYaPage {
-  private TransferTransfiYaPage() {}
+  private TransferTransfiYaPage() { }
 
   public static final Target OPT_ACCORDION_TY =
       Target.the("Opcion acordeon transfiYa").locatedBy("#bdb-grid-item-7");

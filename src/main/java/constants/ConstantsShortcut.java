@@ -1,7 +1,7 @@
 package constants;
 
 public class ConstantsShortcut {
-  private ConstantsShortcut() {}
+  private ConstantsShortcut() { }
 
   public static final String LBL_ACCOUNT = "Cuenta";
   public static final String LBL_HEADER_PAYMENTS = "Pagos";

@@ -4,8 +4,11 @@ import static constants.ConstantLogin.OTP;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
-import static ui.dashboard.DashBoardPage.*;
-import static ui.login.DeviceControlPage.*;
+import static ui.dashboard.DashBoardPage.FAILURE_WINDOW_FOR_DATA_SAVING;
+import static ui.login.DeviceControlPage.BUTTON_CONTINUE;
+import static ui.login.DeviceControlPage.BUTTON_VALIDATE;
+import static ui.login.DeviceControlPage.WRITE_OTP;
+
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;

@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class BalanceDetailProductPage {
-  private BalanceDetailProductPage() {}
+  private BalanceDetailProductPage() { }
 
   public static final String FIRST_COMMON_LOCATOR_LABEL =
       "div:nth-child(1) > div.header-detail__info__item__label";

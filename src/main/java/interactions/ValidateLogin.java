@@ -5,8 +5,10 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
 import static ui.dashboard.DashBoardPage.FAILURE_WINDOW_FOR_DATA_SAVING;
 import static ui.dashboard.DashBoardPage.TOAST_MESSAGE_SAVING_ACCOUNT;
-import static ui.login.DeviceControlPage.*;
-import static ui.login.FingerLoginPage.*;
+import static ui.login.DeviceControlPage.TITLE;
+import static ui.login.FingerLoginPage.MODAL_TOUCH_ID;
+import static ui.login.FingerLoginPage.OPT_NOT_TOUCH_ID;
+
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;

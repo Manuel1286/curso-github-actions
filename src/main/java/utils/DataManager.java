@@ -14,6 +14,7 @@ import net.serenitybdd.screenplay.questions.WebElementQuestion;
 import ui.login.DemoPage;
 
 public class DataManager {
+  private DataManager() { }
 
   enum Users {
     RICARDO("Ricardo", "usuario para login exitoso") {
@@ -712,12 +713,11 @@ public class DataManager {
       public UserLoginData loginData() {
         return new UserLoginData(DocumentType.CEDULA, "73101367", "1234", "", "", "");
       }
-    },
-    ;
+    };
     public final String userName;
     public final String description;
 
-    private Users(String userName, String description) {
+     Users(String userName, String description) {
       this.userName = userName;
       this.description = description;
     }

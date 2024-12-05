@@ -3,7 +3,7 @@ package ui.payments;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class PaymentPayrollPage {
-  private PaymentPayrollPage() {}
+  private PaymentPayrollPage() { }
 
   public static final Target OPT_PAYROLL_ACCORDION =
       Target.the("Selecciona opción Planilla Asistida").locatedBy("#accordion_item_6_header");

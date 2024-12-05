@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class PaymentHistoryPage {
-  private PaymentHistoryPage() {}
+  private PaymentHistoryPage() { }
 
   public static final Target OPT_HISTORY_ACCORDION =
       Target.the("opción de seleccionar Historial en Pagos").locatedBy("#bdb-grid-item-4");

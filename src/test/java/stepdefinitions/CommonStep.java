@@ -30,7 +30,7 @@ public class CommonStep {
   }
 
   @Entonces("debería ver la información de saldos y atajos para {string}")
-  public void deberíaVerLaInformaciónDeSaldosYAtajosPara(String product) {
+  public void deberiaVerLaInformacionDeSaldosYAtajosPara(String product) {
     theActorInTheSpotlight()
         .should(
             seeThat(ValidateDataProductQuestion.validateDataProduct(product)),

@@ -3,7 +3,7 @@ package ui.transfer;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class TransferWithdrawalPage {
-  private TransferWithdrawalPage() {}
+  private TransferWithdrawalPage() { }
 
   public static final Target OPT_WITHDRAWAL_ACCORDION =
       Target.the("Opción seleccionar Retiros sin tarjeta").locatedBy("#bdb-grid-item-1");

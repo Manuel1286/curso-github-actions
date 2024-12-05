@@ -2,7 +2,7 @@ package constants;
 
 public class ConstantsForgetPasword {
 
-  private ConstantsForgetPasword() {}
+  private ConstantsForgetPasword() { }
 
   public static final String CREDIT_CARD = "CREDIT_CARD";
   public static final String CREDIT_ACCOUNT = "CREDIT_ACCOUNT";

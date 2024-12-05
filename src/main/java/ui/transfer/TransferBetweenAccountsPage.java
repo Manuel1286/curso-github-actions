@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class TransferBetweenAccountsPage {
-  private TransferBetweenAccountsPage() {}
+  private TransferBetweenAccountsPage() { }
 
   public static final Target OPT_BETWEEN_ACCOUNTS_ACCORDION =
       Target.the("Selecciona opción Entre cuentas").locatedBy("#bdb-grid-item-0");

@@ -16,7 +16,7 @@ public class BrowserstackLogs {
   private static final Logger LOGGER = LoggerFactory.getLogger(BrowserstackLogs.class);
   private static final Map<String, String> LOGS_BROWSERSTACK = new HashMap<>();
 
-  private BrowserstackLogs() {}
+  private BrowserstackLogs() { }
 
   public static void informationBrowserstackLogs(WebDriver driver) throws ParseException {
     JavascriptExecutor jse = (JavascriptExecutor) driver;

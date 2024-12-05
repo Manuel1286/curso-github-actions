@@ -3,7 +3,7 @@ package ui.pfm;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class FinancesDemo {
-  private FinancesDemo() {}
+  private FinancesDemo() { }
 
   public static final Target BUTTON_FINANCES =
       Target.the("Btn Finanzas").locatedBy("#dash_pfm_button");

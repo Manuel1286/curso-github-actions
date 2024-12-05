@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class DocumentPage {
 
-  private DocumentPage() {}
+  private DocumentPage() { }
 
   public static final Target LBL_CROSS =
       Target.the("Tipos de certificados transversales")

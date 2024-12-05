@@ -1,7 +1,7 @@
 package ui.pfm;
 
 public class Calendar {
-  private Calendar() {}
+  private Calendar() { }
 
   public static final String SD_OPEN_CALENDAR = "#pfm_range_date_date\\.picker_select";
   public static final String BUTTON_OPEN_CALENDAR =

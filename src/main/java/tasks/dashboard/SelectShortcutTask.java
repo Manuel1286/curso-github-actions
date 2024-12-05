@@ -1,6 +1,18 @@
 package tasks.dashboard;
 
-import static constants.ConstantsDetailedBalance.*;
+
+import static constants.ConstantsDetailedBalance.LBL_ADVANCE;
+import static constants.ConstantsDetailedBalance.LBL_CARDS;
+import static constants.ConstantsDetailedBalance.LBL_DOCUMENTS;
+import static constants.ConstantsDetailedBalance.LBL_FREEZE;
+import static constants.ConstantsDetailedBalance.LBL_INVEST;
+import static constants.ConstantsDetailedBalance.LBL_MORE_OPTIONS;
+import static constants.ConstantsDetailedBalance.LBL_MOVEMENTS;
+import static constants.ConstantsDetailedBalance.LBL_PAYMENT;
+import static constants.ConstantsDetailedBalance.LBL_PAYOFF;
+import static constants.ConstantsDetailedBalance.LBL_TO_SHARE;
+import static constants.ConstantsDetailedBalance.LBL_TRANSFER;
+import static constants.ConstantsDetailedBalance.LBL_WITDRAWAL;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
 import static ui.dashboard.BalanceDetailProductPage.OPT_ADVANCE;
@@ -26,6 +38,7 @@ import net.serenitybdd.screenplay.conditions.Check;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class SelectShortcutTask {
+  private SelectShortcutTask() { }
 
   enum OptionShortcut {
     PAYMENT(LBL_PAYMENT) {
@@ -91,7 +104,7 @@ public class SelectShortcutTask {
 
     public final String shortcutOption;
 
-    private OptionShortcut(String optionShortcut) {
+    OptionShortcut(String optionShortcut) {
       this.shortcutOption = optionShortcut;
     }
 

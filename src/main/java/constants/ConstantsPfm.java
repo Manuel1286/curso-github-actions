@@ -2,7 +2,7 @@ package constants;
 
 public class ConstantsPfm {
 
-  private ConstantsPfm() {}
+  private ConstantsPfm() { }
 
   public static final String TEXT_FINANCES = "Finanzas";
   public static final String LBL_ALL_YOUR_ACCOUNTS = "Todas tus cuentas";

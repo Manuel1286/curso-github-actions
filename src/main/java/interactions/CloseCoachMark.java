@@ -3,7 +3,8 @@ package interactions;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
-import static ui.dashboard.DashBoardPage.*;
+import static ui.dashboard.DashBoardPage.BTN_CLOSE_COACHMARK;
+
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;

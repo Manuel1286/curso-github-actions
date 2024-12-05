@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class PaymentRechargePage {
-  private PaymentRechargePage() {}
+  private PaymentRechargePage() { }
 
   public static final Target RECHARGES_ACCORDION =
       Target.the("Selecciona opción Recargas").locatedBy("#bdb-grid-item-2");

@@ -3,7 +3,7 @@ package ui.pfm;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class Redirection {
-  private Redirection() {}
+  private Redirection() { }
 
   public static final String SD_PAYMENTS =
       "body > app-root > ion-app > ion-router-outlet > "
