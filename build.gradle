@@ -43,10 +43,11 @@ dependencies {
 
 checkstyle {
     toolVersion = '10.12.3'
-    configFile = file('config/checkstyle/sun_checks.xml')
+    configFile = file('config/checkstyle/checkstyle.xml') // Asegúrate de que esta ruta sea correcta
     ignoreFailures = false
-    showViolations = true // Muestra las violaciones en la consola
+    showViolations = true
 }
+
 
 spotless {
     java {

@@ -1,7 +1,10 @@
 package tasks.login;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.login.LoginPage.*;
+import static ui.login.LoginPage.DOCUMENT_NUMBER;
+import static ui.login.LoginPage.KEY;
+import static ui.login.LoginPage.LOGIN_BUTTON;
+import static ui.login.LoginPage.TYPE_DOCUMENT;
 
 import interactions.ModalDevice;
 import interactions.ValidateDemo;

@@ -1,8 +1,35 @@
 package questions;
 
-import static constants.ConstantsDetailedBalance.*;
+import static constants.ConstantsDetailedBalance.LBL_ADVANCE;
+import static constants.ConstantsDetailedBalance.LBL_DOCUMENTS;
+import static constants.ConstantsDetailedBalance.LBL_FREEZE;
+import static constants.ConstantsDetailedBalance.LBL_INVEST;
+import static constants.ConstantsDetailedBalance.LBL_MOVEMENTS;
+import static constants.ConstantsDetailedBalance.LBL_PAYMENT;
+import static constants.ConstantsDetailedBalance.LBL_PAYOFF;
+import static constants.ConstantsDetailedBalance.LBL_TRANSFER;
+import static constants.ConstantsDetailedBalance.LBL_WITDRAWAL;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_AFC;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_CDT;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_CREDISERVICE;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_CREDITCARD;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_CURRENT;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_LEASING;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_LIBRANZA;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_LOAN;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_SAVINGS;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_TRUST;
+import static constants.ConstantsDetailedBalance.OPT_PRODUCT_TUPLUS;
 import static questions.CommonQuestions.textEquals;
-import static ui.dashboard.BalanceDetailProductPage.*;
+import static ui.dashboard.BalanceDetailProductPage.OPT_ADVANCE;
+import static ui.dashboard.BalanceDetailProductPage.OPT_DOCUMENTS;
+import static ui.dashboard.BalanceDetailProductPage.OPT_FREEZE;
+import static ui.dashboard.BalanceDetailProductPage.OPT_INVEST;
+import static ui.dashboard.BalanceDetailProductPage.OPT_MOVEMENTS;
+import static ui.dashboard.BalanceDetailProductPage.OPT_PAYMENT;
+import static ui.dashboard.BalanceDetailProductPage.OPT_PAYOFF;
+import static ui.dashboard.BalanceDetailProductPage.OPT_TRANSFER;
+import static ui.dashboard.BalanceDetailProductPage.OPT_WITDRAWAL;
 
 import exceptions.NotFoundProductOptions;
 import net.serenitybdd.screenplay.Actor;
