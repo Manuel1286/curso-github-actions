@@ -11,9 +11,9 @@ import lombok.NoArgsConstructor;
 @Builder
 public class UserLoginData {
   DocumentType documentType;
-  private String documentNumber;
-  private String password;
-  private String typeAccount;
-  private String infoAccount;
-  private String lastFourOfCard;
+  String documentNumber;
+  String password;
+  String typeAccount;
+  String infoAccount;
+  String lastFourOfCard;
 }
