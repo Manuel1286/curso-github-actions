@@ -1,6 +1,5 @@
 package interactions;
 
-
 import abilities.UseAMobileDevice;
 import net.serenitybdd.markers.IsHidden;
 import net.serenitybdd.screenplay.Actor;
