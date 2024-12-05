@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class UserLoginData {
-  private DocumentType documentType;
+  DocumentType documentType;
   private String documentNumber;
   private String password;
   private String typeAccount;

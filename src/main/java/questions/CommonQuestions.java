@@ -26,7 +26,6 @@ public class CommonQuestions {
   }
 
   public static void compareTextVsText(String target, String label) {
-    System.out.println("Valor recibido en target: " + target);
     OnStage.theActorInTheSpotlight()
         .should(
             seeThat(
