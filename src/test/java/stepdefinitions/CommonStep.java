@@ -1,5 +1,7 @@
 package stepdefinitions;
 
+import static common.DashFinancesTask.dashFinancesTask;
+import static common.PfmTask.pfmTask;
 import static constants.ConstantLogin.LOGIN_DATA_KEY;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -22,6 +24,14 @@ public class CommonStep {
     DataManager.initActorWithName(nameActor);
     UserLoginData userLoginData = theActorInTheSpotlight().recall(LOGIN_DATA_KEY);
     withCurrentActor(LogIn.withData(userLoginData));
+  }
+  @Dado("que {word} ingresa a PFM")
+  public void queIngresaPFM(String nameActor) {
+    DataManager.initActorWithName(nameActor);
+    UserLoginData userLoginData = theActorInTheSpotlight().recall(LOGIN_DATA_KEY);
+    withCurrentActor(LogIn.withData(userLoginData));
+    pfmTask();
+    dashFinancesTask();
   }
 
   @Cuando("el ingresa a su producto {string}")
