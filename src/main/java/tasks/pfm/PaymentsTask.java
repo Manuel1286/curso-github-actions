@@ -9,7 +9,9 @@ import questions.CommonQuestions;
 import static constants.ConstantsPfm.TXT_CONSUMS_PERIOD;
 import static constants.ConstantsPfm.TXT_TOTAL_LIMIT;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.pfm.Redirection.*;
+import static ui.pfm.Redirection.SC_CT;
+import static ui.pfm.Redirection.LABEL_OTHER_MOVEMENTS;
+import static ui.pfm.Redirection.LBL_CONSUMS_PERIODS;
 
 public class PaymentsTask implements Task {
     public static PaymentsTask paymentsTask() {

@@ -1,12 +1,12 @@
 package tasks.pfm;
 
-import co.com.bdb.certification.pfm.constants.ConstantsPfm;
-import co.com.bdb.certification.pfm.questions.CommonQuestions;
+import constants.ConstantsPfm;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
+import questions.CommonQuestions;
 
-import static co.com.bdb.certification.pfm.ui.pfm.FinancesDemo.LBL_FINANCES;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
+import static ui.pfm.FinancesDemo.LBL_FINANCES;
 
 
 public class BalanceBillsTask implements Task {
