@@ -1,4 +1,4 @@
-package stepdefinitions;
+package stepdefinitions.Dashboard;
 
 import static common.DashFinancesTask.dashFinancesTask;
 import static common.PfmTask.pfmTask;
@@ -18,21 +18,6 @@ import tasks.login.LogIn;
 import utils.DataManager;
 
 public class CommonStep {
-
-  @Dado("que {word} ingresa a la aplicacion de banca movil")
-  public void queFranciscoIngresaALaAplicacionDeBancaMovil(String nameActor) {
-    DataManager.initActorWithName(nameActor);
-    UserLoginData userLoginData = theActorInTheSpotlight().recall(LOGIN_DATA_KEY);
-    withCurrentActor(LogIn.withData(userLoginData));
-  }
-  @Dado("que {word} ingresa a PFM")
-  public void queIngresaPFM(String nameActor) {
-    DataManager.initActorWithName(nameActor);
-    UserLoginData userLoginData = theActorInTheSpotlight().recall(LOGIN_DATA_KEY);
-    withCurrentActor(LogIn.withData(userLoginData));
-    pfmTask();
-    dashFinancesTask();
-  }
 
   @Cuando("el ingresa a su producto {string}")
   public void elIngresaASuProducto(String productCard) {

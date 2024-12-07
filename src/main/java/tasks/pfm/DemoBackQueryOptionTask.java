@@ -1,4 +1,4 @@
-package tasks.pfm.demo;
+package tasks.pfm;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
