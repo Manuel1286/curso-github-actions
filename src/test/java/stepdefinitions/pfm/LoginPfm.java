@@ -8,6 +8,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.withCurrentActor;
 
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
+import io.cucumber.java.es.Entonces;
 import models.UserLoginData;
 import net.serenitybdd.screenplay.actors.OnStage;
 import tasks.login.LogIn;
@@ -32,5 +33,11 @@ public class LoginPfm {
   @Cuando("el/El/ella/Ella ingresa a PFM")
   public void selectPfm() {
     OnStage.withCurrentActor(pfmTask());
+  }
+  @Entonces("podrá ver la interfaz Finanzas")
+  public void finances() {
+    OnStage.withCurrentActor(
+            dashFinancesTask()
+    );
   }
 }

@@ -14,6 +14,8 @@ public class PfmTask implements Task {
 
   @Override
   public <T extends Actor> void performAs(T actor) {
-    actor.attemptsTo(Click.on(BUTTON_FINANCES));
+    actor.attemptsTo(
+            Click.on(BUTTON_FINANCES)
+    );
   }
 }

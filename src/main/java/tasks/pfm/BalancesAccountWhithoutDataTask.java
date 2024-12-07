@@ -30,13 +30,17 @@ public class BalancesAccountWhithoutDataTask implements Task {
     public <T extends Actor> void performAs(T actor) {
         ShadowRoot.clickOnElementInsideOneShadowRoot(SDR_YOUR_ACCOUNTS, BUTTON_ACCOUNTS);
         OnStage.withCurrentActor(calendarTask());
-        ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-            SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, ONE_MAY_DATE_CALENDAR);
-        ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-            SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, TWO_MAY_DATE_CALENDAR);
-        ShadowRoot.clickOnElementInsideTwoShadowRoots(
-            SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, BTN_APPLY);
+        selectDateRange(actor);
         OnStage.withCurrentActor(Click.on(BUTTON_SEARCH));
         CommonQuestions.textEquals(VALUE, TXT_VALUE);
+    }
+
+    private <T extends Actor> void selectDateRange(T actor) {
+        ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
+                SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, ONE_MAY_DATE_CALENDAR);
+        ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
+                SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, TWO_MAY_DATE_CALENDAR);
+        ShadowRoot.clickOnElementInsideTwoShadowRoots(
+                SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, BTN_APPLY);
     }
 }
