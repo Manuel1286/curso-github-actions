@@ -1,5 +1,5 @@
-# language:es
-# encoding :iso-8859-1
+# language: es
+# encoding: UTF-8
 @EFI-481
 Característica: Como usuario del Banco de Bogotá validar el Tour por PFM cuando el usuario ingresa por primera vez
 

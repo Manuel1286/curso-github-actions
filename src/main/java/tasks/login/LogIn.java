@@ -7,12 +7,14 @@ import static ui.login.LoginPage.LOGIN_BUTTON;
 import static ui.login.LoginPage.TYPE_DOCUMENT;
 
 import interactions.ModalDevice;
+import interactions.ShadowRoot;
 import interactions.ValidateDemo;
 import models.UserLoginData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import ui.login.LoginPage;
 
 public class LogIn implements Task {
 
@@ -21,9 +23,19 @@ public class LogIn implements Task {
   public LogIn(UserLoginData loginData) {
     this.loginData = loginData;
   }
-
+  public static LogIn withData(UserLoginData loginData) {
+    return instrumented(LogIn.class, loginData);
+  }
   @Override
   public <T extends Actor> void performAs(T actor) {
+    if (LoginPage.TYPE_DOCUMENT.resolveFor(actor).isPresent()) {
+      performLogin(actor);
+    } else {
+      handleOtherUserLogin(actor);
+      performLogin(actor);
+    }
+  }
+  private <T extends Actor> void performLogin(T actor) {
     actor.attemptsTo(
         ValidateDemo.toTheApplication(),
         Click.on(TYPE_DOCUMENT),
@@ -35,8 +47,10 @@ public class LogIn implements Task {
         Click.on(LOGIN_BUTTON),
         ModalDevice.modalDevice());
   }
-
-  public static LogIn withData(UserLoginData loginData) {
-    return instrumented(LogIn.class, loginData);
+  private <T extends Actor> void handleOtherUserLogin(T actor) {
+    actor.attemptsTo(Click.on(LoginPage.OTHER_USER));
+    ShadowRoot.clickOnElementInsideOneShadowRoot(LoginPage.HOST_OTHER_USER, LoginPage.H_OTHER_USER);
+    actor.attemptsTo(Click.on(LoginPage.DESVINCULAR));
   }
+
 }
