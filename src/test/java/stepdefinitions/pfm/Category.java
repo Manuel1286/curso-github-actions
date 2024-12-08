@@ -18,7 +18,7 @@ public class Category {
 
     }
 
-    @Entonces("consultar· pagos realizados")
+    @Entonces("consultar√° pagos realizados")
     public void payments() {
         OnStage.withCurrentActor(
                 paymentsTask()

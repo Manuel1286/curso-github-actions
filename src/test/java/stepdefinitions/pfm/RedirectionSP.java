@@ -9,13 +9,13 @@ import static tasks.pfm.RedirectionSPTask.redirectionSPTask;
 
 
 public class RedirectionSP {
-    @Cuando("de clic sobre inscripción de servicios públicos")
+    @Cuando("de clic sobre inscripciÃ³n de servicios pÃºblicos")
     public void redirectionSP() {
         OnStage.withCurrentActor(
             redirectSPTask()
         );
     }
-    @Entonces("redireccionará a servicios públicos")
+    @Entonces("redireccionarÃ¡ a servicios pÃºblicos")
     public void visibleSP() {
         OnStage.withCurrentActor(
             redirectionSPTask()

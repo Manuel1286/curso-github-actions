@@ -37,7 +37,7 @@ public class FiltersAccounts {
                 accountsCACCTask()
         );
     }
-    @Entonces("podr· ver el diagrama de torta con los saldos filtrados")
+    @Entonces("podr√° ver el diagrama de torta con los saldos filtrados")
     public void balancesAllAccounts() {
 
         OnStage.withCurrentActor(
@@ -50,7 +50,7 @@ public class FiltersAccounts {
                 accountsTCTask()
         );
     }
-    @Entonces("podr· ver el diagrama de torta con los saldos filtrados y el filtro se mantendr· en TC")
+    @Entonces("podr√° ver el diagrama de torta con los saldos filtrados y el filtro se mantendr√° en TC")
     public void checkBalancesTC() {
         OnStage.withCurrentActor(
                 balancesTCTask()
@@ -68,13 +68,13 @@ public class FiltersAccounts {
                 calendarTask()
         );
     }
-    @Entonces("dar· clic en cancelar y regresar· a opciones de consulta")
+    @Entonces("dar√° clic en cancelar y regresar√° a opciones de consulta")
     public void cancelCalendar() {
         OnStage.withCurrentActor(
                 cancelCalendarTask()
         );
     }
-    @Entonces("filtrar· por rango de fechas")
+    @Entonces("filtrar√° por rango de fechas")
     public void filterDates() {
         OnStage.withCurrentActor(
                 dateRangeTask(),
@@ -82,28 +82,28 @@ public class FiltersAccounts {
                 balancesRangeDateTask()
         );
     }
-    @Entonces("har· la consulta por 15 dÌas")
+    @Entonces("har√° la consulta por 15 d√≠as")
     public void fifteenDays() {
         OnStage.withCurrentActor(
                 fefteenDaysTask(),
                 applyTask()
         );
     }
-    @Entonces("har· la consulta por la ˙ltima semana")
+    @Entonces("har√° la consulta por la √∫ltima semana")
     public void lastWeek() {
         OnStage.withCurrentActor(
                 lastWeekTask(),
                 applyTask()
         );
     }
-    @Entonces("har· la consulta por el ˙ltimo mes")
+    @Entonces("har√° la consulta por el √∫ltimo mes")
     public void lastMonth() {
         OnStage.withCurrentActor(
                 lastMonthTask(),
                 applyTask()
         );
     }
-    @Entonces("har· la consulta por el dÌa de hoy")
+    @Entonces("har√° la consulta por el d√≠a de hoy")
     public void today() {
         OnStage.withCurrentActor(
                 todayTask(),

@@ -15,7 +15,7 @@ public class BalancesTC {
             balancesWhithoutTCTask()
         );
     }
-    @Entonces("ver· una consulta sin data")
+    @Entonces("ver√° una consulta sin data")
     public  void  balance() {
         OnStage.withCurrentActor(
             balancesAccountWhithoutDataTask()
