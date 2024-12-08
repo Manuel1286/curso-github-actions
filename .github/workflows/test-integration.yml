@@ -43,6 +43,6 @@ jobs:
       environment: st_pipeline
       release-id-steward: ${{ inputs.release_id }}
       repository: 'bbog-bm-automated-testing'
-      target-url-zap: ''
+      target-url-zap: 'http://localhost:8080/app/app-bugfix-10-22.apk'
     secrets:
         DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
