@@ -23,8 +23,8 @@ jobs:
       java-version: "17"
       prefix-team: 'BM'
       path-report-file: target/destination/cucumber.json
-      test-plan-key: ACD-1
-      test-exec-key: ACD-349
+      test-plan-key: EFI-434
+      test-exec-key: EFI-481
       files-to-export: >  
         target/site/serenity/serenity-summary.html
         target/site/serenity/results.csv
