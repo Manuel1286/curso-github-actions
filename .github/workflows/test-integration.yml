@@ -16,7 +16,7 @@ jobs:
       command-install: ''
       command-pre-execute: 'gradle clean clearReports'
       command-execute: 'gradle clean test -Denvironment=androidBs'
-      command-post-execute: 'gradle generate Reports'
+      command-post-execute: 'gradle reports'
       repository: 'bbog-bm-automated-testing'
       use-aws-credentials: false
       debug: true
