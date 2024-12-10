@@ -1,10 +1,7 @@
 package tasks.login;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.login.LoginPage.DOCUMENT_NUMBER;
-import static ui.login.LoginPage.KEY;
-import static ui.login.LoginPage.LOGIN_BUTTON;
-import static ui.login.LoginPage.TYPE_DOCUMENT;
+import static ui.login.LoginPage.*;
 
 import interactions.ModalDevice;
 import interactions.ShadowRoot;
@@ -44,6 +41,7 @@ public class LogIn implements Task {
         Enter.theValue(loginData.getDocumentNumber()).into(DOCUMENT_NUMBER),
         Click.on(KEY),
         Enter.theValue(loginData.getPassword()).into(KEY),
+        Click.on(CHECK_TC),
         Click.on(LOGIN_BUTTON),
         ModalDevice.modalDevice());
   }
