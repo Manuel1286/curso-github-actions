@@ -25,7 +25,7 @@ public class Calendar {
   public static final String LBL_FILTER_CALENDAR =
       "#box > div.bdb-ml-calendar__header > div:nth-child(3) >"
           + " div > div.bdb-ml-calendar__header__ddl__label";
-  public static final String ONE_MAY_DATE_CALENDAR = "#day-1-5-2024";
-  public static final String TEN_MAY_DATE_CALENDAR = "#day-10-5-2024";
+  public static final String ONE_NOV_DATE_CALENDAR = "#day-1-10-2024";
+  public static final String TEN_NOV_DATE_CALENDAR = "#day-10-10-2024";
   public static final String TWO_MAY_DATE_CALENDAR = "#day-2-5-2024";
 }

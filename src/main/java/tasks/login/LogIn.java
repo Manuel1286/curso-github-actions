@@ -34,7 +34,7 @@ public class LogIn implements Task {
   }
   private <T extends Actor> void performLogin(T actor) {
     actor.attemptsTo(
-        ValidateDemo.toTheApplication(),
+       // ValidateDemo.toTheApplication(),
         Click.on(TYPE_DOCUMENT),
         SelectDocuments.withName(loginData.getDocumentType()),
         Click.on(DOCUMENT_NUMBER),

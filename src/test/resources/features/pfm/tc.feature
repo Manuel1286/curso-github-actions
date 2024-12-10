@@ -4,7 +4,7 @@
   Característica: Cliente con TC monoproducto y multiproducto realizará consulta de gastos con Tsx, sin Tsx,
 
   Antecedentes:
-      Dado     que Daniela ingresa a la aplicacion de banca movil
+      Dado     que Johox ingresa a la aplicacion de banca movil
       Cuando   ella ingresa a PFM
       Entonces podrá ver la interfaz Finanzas
 

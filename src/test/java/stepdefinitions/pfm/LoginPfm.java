@@ -26,8 +26,10 @@ public class LoginPfm {
     DataManager.initActorWithName(nameActor);
     UserLoginData userLoginData = theActorInTheSpotlight().recall(LOGIN_DATA_KEY);
     withCurrentActor(LogIn.withData(userLoginData));
-    pfmTask();
-    dashFinancesTask();
+    OnStage.withCurrentActor(
+            pfmTask(),
+            dashFinancesTask());
+    ;
   }
 
   @Cuando("el/El/ella/Ella ingresa a PFM")

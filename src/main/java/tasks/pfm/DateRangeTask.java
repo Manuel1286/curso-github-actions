@@ -15,9 +15,9 @@ public class DateRangeTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-            Calendar.SD_OPEN_CALENDAR, Calendar.BUTTON_HOST_CALENDAR, Calendar.ONE_MAY_DATE_CALENDAR);
+            Calendar.SD_OPEN_CALENDAR, Calendar.BUTTON_HOST_CALENDAR, Calendar.ONE_NOV_DATE_CALENDAR);
         ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-            Calendar.SD_OPEN_CALENDAR, Calendar.BUTTON_HOST_CALENDAR, Calendar.TEN_MAY_DATE_CALENDAR);
+            Calendar.SD_OPEN_CALENDAR, Calendar.BUTTON_HOST_CALENDAR, Calendar.TEN_NOV_DATE_CALENDAR);
 
     }
 }

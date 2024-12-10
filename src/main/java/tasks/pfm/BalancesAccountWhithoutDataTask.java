@@ -14,11 +14,7 @@ import static tasks.pfm.CalendarTask.calendarTask;
 import static ui.pfm.Accounts.BUTTON_ACCOUNTS;
 import static ui.pfm.Accounts.BUTTON_SEARCH;
 import static ui.pfm.Accounts.VALUE;
-import static ui.pfm.Calendar.BUTTON_HOST_CALENDAR;
-import static ui.pfm.Calendar.SD_OPEN_CALENDAR;
-import static ui.pfm.Calendar.ONE_MAY_DATE_CALENDAR;
-import static ui.pfm.Calendar.TWO_MAY_DATE_CALENDAR;
-import static ui.pfm.Calendar.BTN_APPLY;
+import static ui.pfm.Calendar.*;
 import static ui.pfm.FinancesDemo.SDR_YOUR_ACCOUNTS;
 
 public class BalancesAccountWhithoutDataTask implements Task {
@@ -37,9 +33,9 @@ public class BalancesAccountWhithoutDataTask implements Task {
 
     private <T extends Actor> void selectDateRange(T actor) {
         ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-                SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, ONE_MAY_DATE_CALENDAR);
+                SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, ONE_NOV_DATE_CALENDAR);
         ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-                SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, TWO_MAY_DATE_CALENDAR);
+                SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, TEN_NOV_DATE_CALENDAR);
         ShadowRoot.clickOnElementInsideTwoShadowRoots(
                 SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, BTN_APPLY);
     }

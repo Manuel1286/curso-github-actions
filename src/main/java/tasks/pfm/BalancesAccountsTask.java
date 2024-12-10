@@ -10,7 +10,7 @@ import ui.pfm.Accounts;
 
 import static constants.ConstantsPfm.TXT_BALANCE_ALL_ACCOUNTS;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.pfm.Balances.BALANCES_ALL_ACCOUNTS;
+import static ui.pfm.Balances.BALANCES_RANGE_DATE;
 import static ui.pfm.FinancesDemo.SDR_YOUR_ACCOUNTS;
 
 public class BalancesAccountsTask implements Task {
@@ -19,7 +19,7 @@ public class BalancesAccountsTask implements Task {
     }
     @Override
     public <T extends Actor> void performAs(T actor) {
-        CommonQuestions.textEquals(BALANCES_ALL_ACCOUNTS, TXT_BALANCE_ALL_ACCOUNTS);
+        CommonQuestions.textEquals(BALANCES_RANGE_DATE, TXT_BALANCE_ALL_ACCOUNTS);
         ShadowRoot.clickOnElementInsideOneShadowRoot(SDR_YOUR_ACCOUNTS, Accounts.BUTTON_ACCOUNTS);
         CommonQuestions.compareTextVsText(
             ShadowRoot.getTextOfElementInsideOneShadowRoot(Accounts.SD_DROP_DOWN_ALL_ACCOUNTS,

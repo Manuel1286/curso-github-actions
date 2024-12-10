@@ -19,37 +19,27 @@ import static ui.pfm.Calendar.LIST_FIFTEEN_DAYS_CALENDAR;
 import static ui.pfm.Calendar.BUTTON_FILTER_CALENDAR;
 
 public class OptionFilterCalendarTask implements Task {
-
     public static OptionFilterCalendarTask optionFilterCalendarTask() {
         return instrumented(OptionFilterCalendarTask.class);
     }
-
     @Override
     public <T extends Actor> void performAs(T actor) {
-        openCalendar(actor);
-        validateCalendarLabel(actor);
-        applyFilterAndValidate(actor);
-    }
-
-    private <T extends Actor> void openCalendar(T actor) {
         ShadowRoot.clickOnElementInsideOneShadowRoot(SD_OPEN_CALENDAR, BUTTON_OPEN_CALENDAR);
-    }
-
-    private <T extends Actor> void validateCalendarLabel(T actor) {
         CommonQuestions.compareTextVsText(
                 ShadowRoot.getTextOfElementInsideTwoShadowRoot(
                         SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, LBL_DATES), TXT_CALENDAR
         );
-    }
-
-    private <T extends Actor> void applyFilterAndValidate(T actor) {
         ShadowRoot.clickOnElementInsideTwoShadowRoots(SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, BUTTON_FILTER_CALENDAR);
-        actor.attemptsTo(
-                WaitUntil.the(SD_THREE_CALENDAR, isVisible()).forNoMoreThan(5).seconds()
-        );
-        CommonQuestions.compareTextVsText(
-                ShadowRoot.getTextOnElementInsideThreeShadowRoots(
-                        SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, SD_THREE_CALENDAR, LIST_FIFTEEN_DAYS_CALENDAR), TXT_FIFTEEN_DAYS
-        );
+        try {
+            Thread.sleep(3000);
+            CommonQuestions.compareTextVsText(
+                    ShadowRoot.getTextOnElementInsideThreeShadowRoots(
+                            SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR,
+                            SD_THREE_CALENDAR, LIST_FIFTEEN_DAYS_CALENDAR), TXT_FIFTEEN_DAYS
+            );
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+
     }
 }

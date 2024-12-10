@@ -6,14 +6,14 @@ Característica: Como usuario del Banco de Bogot� quiero validar los redirecci
   @OTHER_MOVEMENTS @TEST_EFI-2615
   Escenario: Validar redireccionamiento a pagos realizados
 
-    Dado     que Camila ingresa a PFM
+    Dado     que CamilaN ingresa a PFM
     Cuando   ingrese a Movimientos
     Entonces consultará pagos realizados
 
   @REDIRECTION_SP @TEST_EFI-2616
   Escenario: Validar redireccionamiento a servicios públicos
 
-    Dado     que Gabriela ingresa a PFM
+    Dado     que Candance ingresa a PFM
     Cuando   de clic sobre inscripción de servicios públicos
     Entonces redireccionará a servicios públicos
 
