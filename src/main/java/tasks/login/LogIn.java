@@ -1,11 +1,16 @@
 package tasks.login;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.login.LoginPage.*;
+import static ui.login.LoginPage.DOCUMENT_NUMBER;
+import static ui.login.LoginPage.TYPE_DOCUMENT;
+import static ui.login.LoginPage.KEY;
+import static ui.login.LoginPage.CHECK_TC;
+import static ui.login.LoginPage.LOGIN_BUTTON;
+
+
 
 import interactions.ModalDevice;
 import interactions.ShadowRoot;
-import interactions.ValidateDemo;
 import models.UserLoginData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -25,7 +30,7 @@ public class LogIn implements Task {
   }
   @Override
   public <T extends Actor> void performAs(T actor) {
-    if (LoginPage.TYPE_DOCUMENT.resolveFor(actor).isPresent()) {
+    if (TYPE_DOCUMENT.resolveFor(actor).isPresent()) {
       performLogin(actor);
     } else {
       handleOtherUserLogin(actor);
