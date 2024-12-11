@@ -9,7 +9,6 @@ on:
   workflow_dispatch:
 
 jobs:
-
   integration-security-tests:
     uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v7
     with:
@@ -19,4 +18,4 @@ jobs:
       repository: 'bbog-bm-automated-testing'
       path-app: 'app/app-release-10-23-0.apk'
     secrets:
-        DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
+      DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
