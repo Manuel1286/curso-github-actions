@@ -27,18 +27,15 @@ jobs:
       path-report-file: target/destination/cucumber.json
       test-plan-key: EFI-434
       test-exec-key: EFI-481
-      files-to-export: >  
+      files-to-export: >
         target/site/serenity/serenity-summary.html
         target/site/serenity/results.csv
     secrets:
       DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
       CLIENT_ID_XRAY: ${{ secrets.CLIENT_ID_XRAY }}
       CLIENT_SECRET_XRAY: ${{ secrets.CLIENT_SECRET_XRAY }}
-      OTHERS: >
-        BROWSERSTACK_ACCESS_USER=${{ secrets.BROWSERSTACK_ACCESS_USER }}
-        BROWSERSTACK_ACCESS_KEY=${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-        BROWSERSTACK_USER= ${{ secrets.BROWSERSTACK_ACCESS_USER }}
-        BROWSERSTACK_KEY= ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+      BROWSERSTACK_USER: ${{ secrets.BROWSERSTACK_ACCESS_USER }}
+      BROWSERSTACK_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
 
   integration-security-tests:
     uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v6
@@ -49,4 +46,4 @@ jobs:
       repository: 'bbog-bm-automated-testing'
       path-app: 'app/app-release-10-23-0.apk'
     secrets:
-        DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
+      DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
