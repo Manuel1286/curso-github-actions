@@ -10,7 +10,7 @@ on:
 
 jobs:
   integration-security-tests:
-    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v7
+    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v6
     with:
       prefix-team: 'BM'
       environment: st_pipeline
