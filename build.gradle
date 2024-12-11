@@ -49,10 +49,9 @@ dependencies {
     implementation 'junit:junit:4.13'
     implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
     implementation group: 'com.browserstack', name: 'browserstack-local-java', version: '1.1.0'
+    implementation group: 'com.browserstack', name: 'browserstack-java-sdk', version: '1.27.4'
     implementation 'io.github.cdimascio:java-dotenv:5.2.2'
     "org.seleniumhq.selenium:selenium-java:${selenium}"
-
-
 }
 
 checkstyle {
@@ -68,12 +67,12 @@ spotless {
     }
 }
 
-
 test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
+    jvmArgs "-javaagent:${configurations.runtimeClasspath.find { it.name.contains('browserstack-java-sdk') }}"
+    useJUnitPlatform()
 }
-
 
 compileJava.options.encoding = 'utf-8'
 
@@ -81,8 +80,18 @@ tasks.withType(JavaCompile) {
     options.encoding = 'utf-8'
 }
 
+tasks.register('integrationTest', Test) {
+    testClassesDirs = sourceSets.main.output.classesDirs
+    classpath = sourceSets.main.runtimeClasspath
+    include '**/*.java'
+
+    forkEvery = 1
+    maxParallelForks = Runtime.runtime.availableProcessors()
+    jvmArgs "-javaagent:${configurations.runtimeClasspath.find { it.name.contains('browserstack-java-sdk') }}"
+}
+
+tasks.withType(Test) {
+    finalizedBy aggregate
+}
 
 gradle.startParameter.continueOnFailure = true
-
-test.finalizedBy(aggregate)
-
