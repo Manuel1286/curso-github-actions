@@ -1,6 +1,5 @@
 package stepdefinitions.pfm;
 import io.cucumber.java.es.Cuando;
-import io.cucumber.java.es.Dado;
 
 import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.actors.OnStage;

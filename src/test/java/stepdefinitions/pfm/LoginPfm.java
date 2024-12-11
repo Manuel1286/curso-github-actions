@@ -29,7 +29,6 @@ public class LoginPfm {
     OnStage.withCurrentActor(
             pfmTask(),
             dashFinancesTask());
-    ;
   }
 
   @Cuando("el/El/ella/Ella ingresa a PFM")

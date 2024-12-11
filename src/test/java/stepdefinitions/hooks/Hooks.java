@@ -24,7 +24,7 @@ public class Hooks {
     OnStage.setTheStage(new EnvironmentCast(environmentVariables));
   }
 
-/*  @After
+  @After
   public void checkTestCase(Scenario scenario) throws ParseException {
     String environment = environmentVariables.getProperty("environment");
 
@@ -44,7 +44,7 @@ public class Hooks {
 
       System.out.println("Ejecutando en entorno local. No se envían logs a BrowserStack.");
     }
-  }*/
+  }
 
   @AfterAll
   public static void stopTunnel() throws Exception {
