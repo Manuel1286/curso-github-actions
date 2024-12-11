@@ -27,7 +27,8 @@ public class DashFinancesTask implements Task {
     try {
       Thread.sleep(5000);
     } catch (InterruptedException e) {
-      throw new RuntimeException(e);
+      Thread.currentThread().interrupt(); // Reinterrumpir el hilo.
+      throw new RuntimeException("El hilo fue interrumpido durante la espera.", e);
     }
     if (isWelcomeFinanceVisible(actor)) {
         handleWelcomeFinance(actor);
