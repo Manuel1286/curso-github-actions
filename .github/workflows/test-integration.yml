@@ -11,7 +11,7 @@ on:
 jobs:
 
   integration-security-tests:
-    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@feature/fix-mobsf
+    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v7
     with:
       prefix-team: 'BM'
       environment: st_pipeline
