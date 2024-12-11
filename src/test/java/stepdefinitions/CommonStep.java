@@ -24,7 +24,7 @@ public class CommonStep {
     withCurrentActor(LogIn.withData(userLoginData));
   }
 
-  @Cuando("el ingresa a su producto {string}")
+  @Cuando("ingresa a su producto {string}")
   public void elIngresaASuProducto(String productCard) {
     theActorInTheSpotlight().attemptsTo(SelectProductTask.selectProduct(productCard));
   }
