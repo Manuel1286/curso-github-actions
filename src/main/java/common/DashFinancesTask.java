@@ -56,10 +56,11 @@ public class DashFinancesTask implements Task {
     }
 
     private <T extends Actor> void closeDemo(T actor) {
-      actor.attemptsTo(Click.on(BUTTON_DEMO_CLOSE));
+
+    actor.attemptsTo(Click.on(BUTTON_DEMO_CLOSE));
     }
 
-    private <T extends Actor> void validateFinancesLabel(T actor) {
+    private <T extends Actor> void validateFinancesLabel() {
       CommonQuestions.textEquals(LBL_FINANCES, TEXT_FINANCES);
     }
   }

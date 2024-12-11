@@ -10,7 +10,6 @@ import questions.CommonQuestions;
 import static constants.ConstantsPfm.TXT_VALUE;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static tasks.pfm.CalendarTask.calendarTask;
-
 import static ui.pfm.Accounts.BUTTON_ACCOUNTS;
 import static ui.pfm.Accounts.BUTTON_SEARCH;
 import static ui.pfm.Accounts.VALUE;
@@ -26,16 +25,17 @@ public class BalancesAccountWhithoutDataTask implements Task {
     public static BalancesAccountWhithoutDataTask balancesAccountWhithoutDataTask() {
         return instrumented(BalancesAccountWhithoutDataTask.class);
     }
+
     @Override
     public <T extends Actor> void performAs(T actor) {
         ShadowRoot.clickOnElementInsideOneShadowRoot(SDR_YOUR_ACCOUNTS, BUTTON_ACCOUNTS);
         OnStage.withCurrentActor(calendarTask());
-        selectDateRange(actor);
+        selectDateRange();
         OnStage.withCurrentActor(Click.on(BUTTON_SEARCH));
         CommonQuestions.textEquals(VALUE, TXT_VALUE);
     }
 
-    private <T extends Actor> void selectDateRange(T actor) {
+    private void selectDateRange() {
         ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
                 SD_OPEN_CALENDAR, BUTTON_HOST_CALENDAR, ONE_NOV_DATE_CALENDAR);
         ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
