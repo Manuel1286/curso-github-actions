@@ -13,6 +13,8 @@ jobs:
     uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_frontend_integration.yml@v7
     with:
       environment: st_pipeline
+      browserstack-build-name: 'BM'
+      browserstack-project-name: 'BM'
       command-install: ''
       command-pre-execute: 'gradle clean clearReports'
       command-execute: 'gradle clean test -Denvironment=androidBs'
