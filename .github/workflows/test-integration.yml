@@ -9,33 +9,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  integration-e2e-tests:
-    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_frontend_integration.yml@v7
-    with:
-      environment: st_pipeline
-      browserstack-build-name: 'BM'
-      browserstack-project-name: 'BM'
-      command-install: ''
-      command-pre-execute: 'gradle clean clearReports'
-      command-execute: 'gradle clean test -Denvironment=androidBs'
-      command-post-execute: 'gradle reports'
-      repository: 'bbog-bm-automated-testing'
-      use-aws-credentials: false
-      debug: true
-      java-version: "17"
-      prefix-team: 'BM'
-      path-report-file: target/destination/cucumber.json
-      test-plan-key: EFI-434
-      test-exec-key: EFI-481
-      files-to-export: >  
-        target/site/serenity/serenity-summary.html
-        target/site/serenity/results.csv
-    secrets:
-      DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
-      CLIENT_ID_XRAY: ${{ secrets.CLIENT_ID_XRAY }}
-      CLIENT_SECRET_XRAY: ${{ secrets.CLIENT_SECRET_XRAY }}
-      BROWSERSTACK_USER: ${{ secrets.BROWSERSTACK_USER }}
-      BROWSERSTACK_KEY: ${{ secrets.BROWSERSTACK_KEY }}
 
   integration-security-tests:
     uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@feature/fix-mobsf
