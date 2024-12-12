@@ -28,10 +28,10 @@ public class FilterQuestion implements Question<String> {
         String displayedDate = ShadowRoot.getTextOfElementInsideOneShadowRoot(HOST_MOVEMENT_DATE, MOVEMENT_DATE);
         String displayedValue = ShadowRoot.getTextOfElementInsideOneShadowRoot(HOST_MOVEMENT_DATE, VALUE_DATE);
 
-        String log = "Valores esperados: movimiento=" + expectedMovement + ", fecha=" + expectedDate +
-                ", valor=" + expectedValue + "\n";
-        log += "Valores mostrados: movimiento=" + displayedMovement +
-                ", fecha=" + displayedDate + ", valor=" + displayedValue;
+        String log = "Valores esperados: movimiento=" + expectedMovement + ", fecha=" + expectedDate
+                + ", valor=" + expectedValue + "\n";
+        log += "Valores mostrados: movimiento=" + displayedMovement
+                + ", fecha=" + displayedDate + ", valor=" + displayedValue;
 
         return log;
     }

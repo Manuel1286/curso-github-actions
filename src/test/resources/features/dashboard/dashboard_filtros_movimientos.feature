@@ -7,14 +7,14 @@ Característica: Como cliente de banco de Bogotá quiero ver los movimientos a t
 
 @FilterMovements
   Esquema del escenario: Validar filtro de movimientos
-    Dado que <user> ingresa a la aplicacion de banca movil
-    Cuando seleccione el "<producto>" con la opción "<Filtrar por:>"
+    Dado que Marina ingresa a la aplicacion de banca movil
+    Cuando seleccione el "Cuenta de Ahorros" con la opción "<Filtrar por:>"
     Entonces debería visualizar los siguientes datos "<Movimientos>" "<Fecha>" y "<Valor>"
 
     Ejemplos:
-      |user| producto           |Filtrar por: |Movimientos|Fecha      |Valor    |
-      |Marina| Cuenta de Ahorros|Palabra      |Intereses  |31 oct 2024|+$ 17.955|
-
+      |Filtrar por: |Movimientos    |Fecha      |Valor    |
+ #     |Palabra      |Intereses      |31 oct 2024|+$ 17.955|
+       |monto        |10000 a $20000 |31 oct 2024|+$ 17.955|
 
 
 

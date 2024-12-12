@@ -22,6 +22,8 @@ import static ui.dashboard.DashboardFilterPage.WORD;
 import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH;
 import static ui.dashboard.DashboardFilterPage.FILTER_AMOUNT;
 import static ui.dashboard.DashboardFilterPage.MINIMUM_RANGE;
+import static ui.dashboard.DashboardFilterPage.MAXIMUM_RANGE;
+import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH_AMOUNT;
 
 
 
@@ -68,7 +70,10 @@ public class FilterMovementBy implements Task {
             case "monto":
                 actor.attemptsTo(
                     Click.on(FILTER_AMOUNT),
-                    Click.on(MINIMUM_RANGE).then(Enter.theValue("5000").into(MINIMUM_RANGE)));
+                    Click.on(MINIMUM_RANGE).then(Enter.theValue("10000").into(MINIMUM_RANGE)),
+                    Click.on(MAXIMUM_RANGE).then(Enter.theValue("20000").into(MAXIMUM_RANGE)),
+                        Click.on(BUTTON_SEARCH_AMOUNT)
+                );
                 break;
             default:
                 throw new IllegalArgumentException("Tipo de filtro no soportado: " + filter);
