@@ -10,8 +10,7 @@ import static ui.dashboard.DashboardFilterPage.FILTER_DATE;
 import static ui.dashboard.DashboardFilterPage.MOVEMENT_DATE;
 import static ui.dashboard.DashboardFilterPage.VALUE_DATE;
 
-
-public class FilterQuestion implements Question<Boolean> {
+public class FilterQuestion implements Question<String> {
 
     private final String expectedMovement;
     private final String expectedDate;
@@ -24,20 +23,20 @@ public class FilterQuestion implements Question<Boolean> {
     }
 
     @Override
-    public Boolean answeredBy(Actor actor) {
+    public String answeredBy(Actor actor) {
         String displayedMovement = ShadowRoot.getTextOfElementInsideOneShadowRoot(HOST_FILTER_DATE, FILTER_DATE);
-        String displayedDate =  ShadowRoot.getTextOfElementInsideOneShadowRoot(HOST_MOVEMENT_DATE, MOVEMENT_DATE);
+        String displayedDate = ShadowRoot.getTextOfElementInsideOneShadowRoot(HOST_MOVEMENT_DATE, MOVEMENT_DATE);
         String displayedValue = ShadowRoot.getTextOfElementInsideOneShadowRoot(HOST_MOVEMENT_DATE, VALUE_DATE);
 
-        return displayedMovement.equals(expectedMovement)
-                && displayedDate.equals(expectedDate)
-                && displayedValue.equals(expectedValue);
-    }
+        String log = "Valores esperados: movimiento=" + expectedMovement + ", fecha=" + expectedDate +
+                ", valor=" + expectedValue + "\n";
+        log += "Valores mostrados: movimiento=" + displayedMovement +
+                ", fecha=" + displayedDate + ", valor=" + displayedValue;
 
+        return log;
+    }
 
     public static FilterQuestion matches(String movement, String date, String value) {
         return new FilterQuestion(movement, date, value);
     }
-
 }
-
