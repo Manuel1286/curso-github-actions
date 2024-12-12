@@ -34,6 +34,7 @@ import static constants.ConstantsDetailedBalanceSwipeHeader.LBL_TOTAL_BALANCE;
 import static constants.ConstantsDetailedBalanceSwipeHeader.LBL_TOTAL_QUOTA;
 import static constants.ConstantsDetailedBalanceSwipeHeader.LBL_TOTAL_VALUE;
 import static questions.CommonQuestions.textEquals;
+import static ui.dashboard.BalanceDetailProductPage.FIRST_HEADER_SWIPE;
 import static ui.dashboard.BalanceDetailProductPage.LBL_ADVANCE_QUOTA_TC;
 import static ui.dashboard.BalanceDetailProductPage.LBL_AMOUNT_APPROVED_LEASING;
 import static ui.dashboard.BalanceDetailProductPage.LBL_AMOUNT_APPROVED_LIBRANZA;
@@ -114,6 +115,9 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
 
       case OPT_PRODUCT_CREDISERVICE:
         textEquals(LBL_BALANCE_AVAILABLE_CREDISERVICE, LBL_BALANCE_AVAILABLE);
+        actor.attemptsTo(
+                Scroll.to(FIRST_HEADER_SWIPE)
+        );
         textEquals(LBL_MINIMUM_PAYMENT_CREDISERVICE, LBL_MINIMUM_PAYMENT);
         textEquals(LBL_NEXT_PAYMENT_CREDISERVICE, LBL_NEXT_PAYMENT);
         textEquals(LBL_APPROVED_QUOTA_CREDISERVICE, LBL_APPROVED_QUOTA);
