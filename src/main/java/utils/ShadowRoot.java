@@ -1,4 +1,4 @@
-package interactions;
+package utils;
 
 import static net.serenitybdd.core.Serenity.getDriver;
 

@@ -1,7 +1,7 @@
 package tasks.pfm;
 
 
-import interactions.ShadowRoot;
+import utils.ShadowRoot;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;

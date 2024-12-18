@@ -1,6 +1,6 @@
 package tasks.pfm;
 
-import interactions.ShadowRoot;
+import utils.ShadowRoot;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import ui.pfm.Bills;
@@ -28,10 +28,10 @@ public class CategoriesBillsTask implements Task {
             case "Movimientos":
                 ShadowRoot.clickOnElementInsideOneShadowRoot(Bills.SDR_CATEGORIES, Bills.INCOME);
                 break;
-            case "Ahorro e inversión":
+            case "Ahorro e inversiï¿½n":
                 ShadowRoot.clickOnElementInsideOneShadowRoot(Bills.SDR_CATEGORIES, Bills.SAVINGS_AND_INVESTMENT);
                 break;
-            case "Crédito y deudas":
+            case "Crï¿½dito y deudas":
                 ShadowRoot.clickOnElementInsideOneShadowRoot(Bills.SDR_CATEGORIES, Bills.CREDIT_AND_DEBTS);
                 break;
             default:

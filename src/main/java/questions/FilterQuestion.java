@@ -1,6 +1,6 @@
 package questions;
 
-import interactions.ShadowRoot;
+import utils.ShadowRoot;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 

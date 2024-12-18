@@ -10,7 +10,7 @@ import static ui.login.LoginPage.LOGIN_BUTTON;
 
 
 import interactions.ModalDevice;
-import interactions.ShadowRoot;
+import utils.ShadowRoot;
 import models.UserLoginData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

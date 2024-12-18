@@ -1,7 +1,7 @@
 package tasks.dashboard;
 
 import interactions.Charge;
-import interactions.ShadowRoot;
+import utils.ShadowRoot;
 import lombok.AllArgsConstructor;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

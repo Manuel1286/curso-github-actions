@@ -552,7 +552,7 @@ public class DataManager {
     CANDANCEE("Candancee", "Usuario con PFM") {
       @Override
       public UserLoginData loginData() {
-        return new UserLoginData(DocumentType.CEDULA, "2007607", "1234", "", "", "");
+        return new UserLoginData(DocumentType.TARJETA_IDENTIDAD, "9905011329", "1234", "", "", "");
       }
     },
     CANDANCE("Candance", "Usuario con PFM") {

@@ -54,7 +54,7 @@ import static ui.transfer.TransferHistoryPage.OPT_TRANSFER_HISTORY_ACCORDION;
 import static ui.transfer.TransferTransfiYaPage.OPT_ACCORDION_TY;
 import static ui.transfer.TransferWithdrawalPage.OPT_WITHDRAWAL_ACCORDION;
 
-import interactions.ShadowRoot;
+import utils.ShadowRoot;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.actors.OnStage;

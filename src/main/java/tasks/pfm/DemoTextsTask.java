@@ -9,7 +9,7 @@ import static ui.pfm.FinancesDemo.BUTTON_DEMO_CREDIT_DEBTS;
 import static ui.pfm.FinancesDemo.TEXT_DEMO_BILLS;
 
 import constants.ConstantsPfm;
-import interactions.ShadowRoot;
+import utils.ShadowRoot;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
