@@ -83,10 +83,6 @@ public class LoginPage {
       Target.the("botón Empecemos")
           .located(By.cssSelector("[routerlink='/users/device-control-warning']"));
 
-  public static final Target CHECK_TC = Target.
-          the("Check_TYC")
-          .locatedBy(".bdb-checkbox__checkmark");
-
   public static final Target OTHER_USER = Target.
           the("Ingresar con otro usuario")
           .locatedBy("//button[contains(@class, 'bdb-change-user-btn') and text()='Ingresar con otro usuario']");
@@ -95,5 +91,7 @@ public class LoginPage {
 
   public static final Target DESVINCULAR = Target.
           the("Desvincular").locatedBy(".bdb-replace-user__submit-btn.bdb-btn.bdb-btn--primary");
-
+  public static final Target CHECK_TC = Target.
+          the("Check_TYC")
+          .locatedBy(".bdb-checkbox__checkmark");
 }

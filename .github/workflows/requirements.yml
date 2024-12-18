@@ -5,11 +5,10 @@ on:
     branches:
       - staging
       - master
-      - Feature/*
 
 jobs:
   requirements:
-    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/requirements_frontend.yml@v6
+    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/requirements_frontend.yml@v7
     with:
       project-name: bbog-bm-automated-testing
       project-key:  bbog-bm-automated-testing

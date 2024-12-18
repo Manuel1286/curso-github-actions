@@ -6,7 +6,7 @@ public class TransferWithdrawalPage {
   private TransferWithdrawalPage() { }
 
   public static final Target OPT_WITHDRAWAL_ACCORDION =
-      Target.the("Opción seleccionar Retiros sin tarjeta").locatedBy("#bdb-grid-item-1");
+      Target.the("Opción seleccionar Retiros sin tarjeta").locatedBy("#bdb-grid-item-wrapper-1");
   public static final String OPT_WITHDRAWAL_ATM_HOST =
       "#withdrawal-form > div.withdrawal-without-container__selector.ng-star-inserted > div:nth-child(2) > bdb-ml-active-selector";
   public static final String OPT_WITHDRAWAL_ATM_CHILD = ".bdb-ml-active-selector";

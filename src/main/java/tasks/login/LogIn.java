@@ -1,22 +1,24 @@
 package tasks.login;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.login.LoginPage.DOCUMENT_NUMBER;
-import static ui.login.LoginPage.TYPE_DOCUMENT;
-import static ui.login.LoginPage.KEY;
 import static ui.login.LoginPage.CHECK_TC;
+import static ui.login.LoginPage.DESVINCULAR;
+import static ui.login.LoginPage.DOCUMENT_NUMBER;
+import static ui.login.LoginPage.HOST_OTHER_USER;
+import static ui.login.LoginPage.H_OTHER_USER;
+import static ui.login.LoginPage.KEY;
 import static ui.login.LoginPage.LOGIN_BUTTON;
-
-
+import static ui.login.LoginPage.OTHER_USER;
+import static ui.login.LoginPage.TYPE_DOCUMENT;
 
 import interactions.ModalDevice;
-import utils.ShadowRoot;
+import interactions.Pause;
 import models.UserLoginData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import ui.login.LoginPage;
+import utils.ShadowRoot;
 
 public class LogIn implements Task {
 
@@ -39,21 +41,23 @@ public class LogIn implements Task {
   }
   private <T extends Actor> void performLogin(T actor) {
     actor.attemptsTo(
-       // ValidateDemo.toTheApplication(),
-        Click.on(TYPE_DOCUMENT),
-        SelectDocuments.withName(loginData.getDocumentType()),
-        Click.on(DOCUMENT_NUMBER),
-        Enter.theValue(loginData.getDocumentNumber()).into(DOCUMENT_NUMBER),
-        Click.on(KEY),
-        Enter.theValue(loginData.getPassword()).into(KEY),
-        Click.on(CHECK_TC),
-        Click.on(LOGIN_BUTTON),
-        ModalDevice.modalDevice());
+            //ValidateDemo.toTheApplication(),
+            Click.on(TYPE_DOCUMENT),
+            SelectDocuments.withName(loginData.getDocumentType()),
+            Click.on(DOCUMENT_NUMBER),
+            Enter.theValue(loginData.getDocumentNumber()).into(DOCUMENT_NUMBER),
+            Click.on(KEY),
+            Enter.theValue(loginData.getPassword()).into(KEY),
+            Click.on(CHECK_TC),
+            Click.on(LOGIN_BUTTON),
+            ModalDevice.modalDevice());
   }
   private <T extends Actor> void handleOtherUserLogin(T actor) {
-    actor.attemptsTo(Click.on(LoginPage.OTHER_USER));
-    ShadowRoot.clickOnElementInsideOneShadowRoot(LoginPage.HOST_OTHER_USER, LoginPage.H_OTHER_USER);
-    actor.attemptsTo(Click.on(LoginPage.DESVINCULAR));
+
+    actor.attemptsTo(Click.on(OTHER_USER));
+    Pause.withDuration(5000);
+    ShadowRoot.clickOnElementInsideOneShadowRoot(HOST_OTHER_USER, H_OTHER_USER);
+    actor.attemptsTo(Click.on(DESVINCULAR));
   }
 
 }

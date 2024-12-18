@@ -12,6 +12,7 @@ public class ConstantsShortcut {
   public static final String LBL_ACCORDION_TAXES = "Impuestos";
   public static final String LBL_ACCORDION_PAYROLL = "Planilla asistida";
   public static final String LBL_ACCORDION_HISTORY = "Historial";
+  public static final String LBL_TAG_AVAL = "A un Tag Aval\n" + "¡Nuevo!";
   public static final String LBL_HEADER_DOCUMENTS = "Documentos";
   public static final String LBL_ACCORDION_CERTIFICATE = "Certificados";
   public static final String LBL_ACCORDION_ABSTRACT = "Extractos";

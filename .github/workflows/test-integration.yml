@@ -10,13 +10,13 @@ on:
 
 jobs:
   integration-e2e-tests:
-    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_frontend_integration.yml@v6
+    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_frontend_integration.yml@v7
     with:
       environment: st_pipeline
       command-install: ''
       command-pre-execute: 'gradle clean clearReports'
       command-execute: 'gradle clean test -Denvironment=androidBs'
-      command-post-execute: 'gradle generate Reports'
+      command-post-execute: 'gradle reports'
       repository: 'bbog-bm-automated-testing'
       use-aws-credentials: false
       debug: true
@@ -37,12 +37,12 @@ jobs:
         BROWSERSTACK_ACCESS_KEY=${{ secrets.BROWSERSTACK_ACCESS_KEY }}
 
   integration-security-tests:
-    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v6
+    uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v7
     with:
       prefix-team: 'BM'
       environment: st_pipeline
       release-id-steward: ${{ inputs.release_id }}
       repository: 'bbog-bm-automated-testing'
-      target-url-zap: 'app/app-bugfix-10-22.apk'
+      path-app: 'app/app-release-10-23-0.apk'
     secrets:
-        DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
+      DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}

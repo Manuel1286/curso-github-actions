@@ -46,7 +46,7 @@ public class TransferBetweenAccountsPage {
           .locatedBy("#transfer-account__form__account-notes-input");
   public static final String INPUT_NOTE_FIELD = "//*[@id='tranfers_detail.note_input']";
   public static final Target OPT_ADVANCE_CREDITCARD_ACCORDION =
-      Target.the("Opción avance Tarjeta Crédito").locatedBy("#bdb-grid-item-2");
+      Target.the("Opción avance Tarjeta Crédito").locatedBy("#bdb-grid-item-wrapper-2");
   public static final Target LST_TRANSFER_PRODUCT =
       Target.the("Lista de productos disponibles para transferencias")
           .located(

@@ -8,6 +8,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.Scroll;
 import ui.dashboard.DashBoardPage;
 
 public class SelectProductTask implements Task {
@@ -31,7 +32,9 @@ public class SelectProductTask implements Task {
                 })
             .findFirst()
             .orElseThrow(() -> new NotFoundProductException(productCard));
-    actor.attemptsTo(Click.on(action));
+    actor.attemptsTo(
+            Scroll.to(action),
+            Click.on(action));
   }
 
   public static SelectProductTask selectProduct(String productCard) {

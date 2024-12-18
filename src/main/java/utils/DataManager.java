@@ -406,7 +406,7 @@ public class DataManager {
     MIRIAM("Miriam", "usuario con CDT FISICO") {
       @Override
       public UserLoginData loginData() {
-        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "104411", "1234", "", "", "");
+        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "104411", "2025", "", "", "");
       }
     },
     RICHI("Richi", "usuario con Tarjetas de crédito") {
@@ -437,7 +437,7 @@ public class DataManager {
     DARK("Dark", "usuario con cta AH, corriente y Crediservice") {
       @Override
       public UserLoginData loginData() {
-        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "203540", "1234", "", "", "");
+        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "203540", "2024", "", "", "");
       }
     },
     ALVARO("Alvaro", "usuario con cta AH y credito de vivienda") {
