@@ -3,9 +3,9 @@ package tasks.pfm.demo;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static ui.pfm.FinancesDemo.SDR_DEMO_CATEGORIES;
 import static ui.pfm.FinancesDemo.TEXT_DEMO_BILLS;
+import static utils.ShadowRoot.clickOnElementInsideOneShadowRoot;
 
 import constants.ConstantsPfm;
-import interactions.ShadowRoot;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
@@ -21,16 +21,16 @@ public class DemoTextsTask implements Task {
   @Override
   public <T extends Actor> void performAs(T actor) {
 
-    ShadowRoot.clickOnElementInsideOneShadowRoot(
+    clickOnElementInsideOneShadowRoot(
         SDR_DEMO_CATEGORIES, FinancesDemo.BUTTON_DEMO_BILLS);
     CommonQuestions.textEquals(TEXT_DEMO_BILLS, ConstantsPfm.LBL_BILLS);
-    ShadowRoot.clickOnElementInsideOneShadowRoot(
+    clickOnElementInsideOneShadowRoot(
         SDR_DEMO_CATEGORIES, FinancesDemo.BUTTON_DEMO_INCOME);
     CommonQuestions.textEquals(TEXT_DEMO_BILLS, ConstantsPfm.LBL_INCOME);
-    ShadowRoot.clickOnElementInsideOneShadowRoot(
+    clickOnElementInsideOneShadowRoot(
         SDR_DEMO_CATEGORIES, FinancesDemo.BUTTON_DEMO_SAVING_INVESTMENT);
     CommonQuestions.textEquals(TEXT_DEMO_BILLS, ConstantsPfm.LBL_SAVING_INVESTMENT);
-    ShadowRoot.clickOnElementInsideOneShadowRoot(
+    clickOnElementInsideOneShadowRoot(
         SDR_DEMO_CATEGORIES, FinancesDemo.BUTTON_DEMO_CREDIT_DEBTS);
     CommonQuestions.textEquals(TEXT_DEMO_BILLS, ConstantsPfm.LBL_CREDIT_DEBTS);
     actor.attemptsTo(Click.on(FinancesDemo.BUTTON_FACT));

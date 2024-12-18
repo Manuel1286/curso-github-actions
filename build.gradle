@@ -1,18 +1,14 @@
-defaultTasks 'clean', 'test', 'aggregate'
-repositories {
-    mavenCentral()
-    mavenLocal()
-}
-
 buildscript {
     repositories {
+        mavenCentral()
+        mavenLocal()
         maven {
             url "https://plugins.gradle.org/m2/"
         }
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:4.2.8")
-        classpath("net.serenity-bdd:serenity-single-page-report:4.2.5")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:3.9.8")
+        classpath("net.serenity-bdd:serenity-single-page-report:3.9.8")
         classpath "com.diffplug.spotless:spotless-plugin-gradle:6.25.0"
     }
 }
@@ -21,6 +17,14 @@ apply plugin: 'java'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 apply plugin: "checkstyle"
 apply plugin: 'com.diffplug.spotless'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
+}
 
 serenity {
     reports = ["single-page-html"]
@@ -49,17 +53,14 @@ dependencies {
     implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
     implementation group: 'com.browserstack', name: 'browserstack-local-java', version: '1.1.0'
     implementation 'io.github.cdimascio:java-dotenv:5.2.2'
-    implementation group: 'com.browserstack', name: 'browserstack-java-sdk', version: '1.27.4'
-    "org.seleniumhq.selenium:selenium-java:${selenium}"
-
-
+    implementation "org.seleniumhq.selenium:selenium-java:${selenium}"
 }
 
 checkstyle {
     toolVersion = '10.12.3'
     configFile = file('config/checkstyle/sun_checks.xml')
     ignoreFailures = false
-    showViolations = true // Muestra las violaciones en la consola
+    showViolations = true
 }
 
 spotless {
@@ -68,12 +69,10 @@ spotless {
     }
 }
 
-
 test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
 }
-
 
 compileJava.options.encoding = 'utf-8'
 
@@ -84,4 +83,3 @@ tasks.withType(JavaCompile) {
 gradle.startParameter.continueOnFailure = true
 
 test.finalizedBy(aggregate)
-

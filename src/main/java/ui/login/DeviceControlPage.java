@@ -41,4 +41,9 @@ public class DeviceControlPage {
       Target.the(
               "botón para validar la otp de control de dispositivos en el flujo de olvido de clave")
           .locatedBy("//button[text()='Verificar']");
+
+  public static final Target BTN_VERIFY =
+          Target.the("Botón verificar")
+                  .located(By.cssSelector("#otp-validation-send-btn"));
+
 }

@@ -13,7 +13,7 @@ Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajo
     Dado que Miriam ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "CDT"
     Y seleccione el atajo de <Atajo>
-    Entonces debería redireeccionarse al atajo de <Atajo> de su producto "CDT" número "No. 00559513201"
+    Entonces debería redireccionarse al atajo de <Atajo> de su producto "CDT" número "No. 00559513201"
 
     Ejemplos:
       | Atajo         | NameCase   |

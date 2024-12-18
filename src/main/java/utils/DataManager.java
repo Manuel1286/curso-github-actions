@@ -406,7 +406,7 @@ public class DataManager {
     MIRIAM("Miriam", "usuario con CDT FISICO") {
       @Override
       public UserLoginData loginData() {
-        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "104411", "1234", "", "", "");
+        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "104411", "2025", "", "", "");
       }
     },
     RICHI("Richi", "usuario con Tarjetas de crédito") {

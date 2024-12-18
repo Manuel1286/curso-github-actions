@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 public class TransferTransfiYaPage {
   private TransferTransfiYaPage() { }
 
-  public static final Target OPT_ACCORDION_TY =
-      Target.the("Opcion acordeon transfiYa").locatedBy("#bdb-grid-item-7");
+  public static final Target OPT_BETWEEN_ACCOUNTS =
+      Target.the("Opcion Entre cuentas").locatedBy("#bdb-grid-item-wrapper-0");
   public static final Target OPT_SEND_TY =
       Target.the("Opcion enviar dinero TransfiYa")
           .located(By.cssSelector("phone-item ng-star-inserted"));

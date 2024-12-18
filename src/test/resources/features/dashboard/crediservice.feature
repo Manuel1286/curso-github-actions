@@ -9,17 +9,18 @@ Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajo
     Cuando ingresa a su producto "Crediservice"
     Entonces debería ver la información de saldos y atajos para "Crediservice"
 
+  @creditservice
   Esquema del escenario: Validar que usuario con Crediservice lo redireccione a <NameCase>
     Dado que Dark ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "Crediservice"
     Y seleccione el atajo de <Atajo>
-    Entonces debería redireeccionarse al atajo de <Atajo> de su producto "Crediservice" número "No. 00559513201"
+    Entonces debería redireccionarse al atajo de <Atajo> de su producto "Crediservice" número "No. 00559513201"
 
     Ejemplos:
       | Atajo         |  NameCase    |
+      | "Movimientos" |  Movimientos |
       | "Pagar"       |  Pagar       |
       | "Transferir"  |  transferir  |
-      | "Movimientos" |  Movimientos |
       | "Documentos"  |  Documentos  |
 
 

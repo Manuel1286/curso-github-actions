@@ -7,7 +7,9 @@ public class TransferHistoryPage {
   private TransferHistoryPage() { }
 
   public static final Target OPT_TRANSFER_HISTORY_ACCORDION =
-      Target.the("opción de seleccionar Historial en Transferencias").locatedBy("#bdb-grid-item-6");
+      Target.the("opción de seleccionar Historial en Transferencias").locatedBy("#bdb-grid-item-wrapper-6");
+  public static final Target OPT_TAG_AVAL =
+          Target.the("opción de seleccionar Tag aval").locatedBy("#bdb-grid-item-wrapper-12");
   public static final Target OPT_TRANSFER_DATE_FILTER =
       Target.the("opción de Filtrar por fecha").locatedBy("#range_date_filter");
   public static final Target LBL_ALERT_TRANSFER_HISTORY =
