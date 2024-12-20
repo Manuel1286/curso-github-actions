@@ -158,6 +158,7 @@ public class ValidateShortcutOptionsQuestion implements Question<Boolean> {
             CommonQuestions.textEquals(LBL_PRODUCT_NAME, product);
             CommonQuestions.textEquals(LBL_PRODUCT_NUMBER, productNumber);
           }
+          break;
         case LBL_ADVANCE:
           CommonQuestions.textEquals(LBL_HEADER_ACCORDION_ADVANCE, LBL_HEADER_LBL_ADVANCE);
           CommonQuestions.compareTextVsText( ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_ADVANCE, TITLE_PRODUCT_DETAIL_ELEMENT_ADVANCE), product);

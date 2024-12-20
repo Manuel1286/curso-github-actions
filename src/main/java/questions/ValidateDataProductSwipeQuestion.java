@@ -72,6 +72,7 @@ import static ui.dashboard.BalanceDetailProductPage.LBL_TOTAL_PAYMENT_TC;
 import static ui.dashboard.BalanceDetailProductPage.LBL_TOTAL_QUOTA_TC;
 import static ui.dashboard.BalanceDetailProductPage.LBL_TOTAL_VALUE_CDT;
 import static ui.dashboard.BalanceDetailProductPage.SECOND_HEADER_SWIPE;
+import static ui.dashboard.BalanceDetailProductPage.SWIPE_HEADER;
 
 import exceptions.NotFoundProductOptions;
 import net.serenitybdd.screenplay.Actor;
@@ -160,6 +161,9 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
       case OPT_PRODUCT_LOAN:
       case OPT_PRODUCT_LEASING:
         textEquals(LBL_TOTAL_PAYMENT_LEASING, LBL_FULL_PAYMENT);
+        actor.attemptsTo(
+                Scroll.to(FIRST_HEADER_SWIPE)
+        );
         textEquals(LBL_MINIMUM_PAYMENT_LEASING, LBL_MINIMUM_PAYMENT);
         textEquals(LBL_NEXT_PAYMENT_LEASING, LBL_NEXT_PAYMENT);
         textEquals(LBL_AMOUNT_APPROVED_LEASING, LBL_AMOUNT_APPROVED);
@@ -171,6 +175,9 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
 
       case OPT_PRODUCT_LIBRANZA:
         textEquals(LBL_TOTAL_PAYMENT_LIBRANZA, LBL_FULL_PAYMENT);
+        actor.attemptsTo(
+                Scroll.to(SWIPE_HEADER)
+        );
         textEquals(LBL_MINIMUM_PAYMENT_LIBRANZA, LBL_MINIMUM_PAYMENT);
         textEquals(LBL_AMOUNT_APPROVED_LIBRANZA, LBL_AMOUNT_APPROVED);
         return true;

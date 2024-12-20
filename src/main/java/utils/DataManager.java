@@ -112,7 +112,7 @@ public class DataManager {
     DARWIN("Darwin", "usuario para login exitoso cuenta ahorros y TC sin pago minimo") {
       @Override
       public UserLoginData loginData() {
-        return new UserLoginData(DocumentType.CEDULA, "3227413", "1234", "", "", "");
+        return new UserLoginData(DocumentType.CEDULA, "3227413", "4321", "", "", "");
       }
     },
     MARIA("Maria", "usuario para login exitoso cuenta ahorros y TC inscritas") {
@@ -195,7 +195,7 @@ public class DataManager {
     LUCIANA("Luciana", "usuario con cuenta corriente y crediservice ") {
       @Override
       public UserLoginData loginData() {
-        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "101414", "1234", "", "", "");
+        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "101414", "4321", "", "", "");
       }
     },
     FERNEY("Ferney", "usuario con AH sin movimientos ") {
@@ -425,7 +425,7 @@ public class DataManager {
     FRANCISCO("Francisco", "usuario con AFC, Crediservice, Libredestino") {
       @Override
       public UserLoginData loginData() {
-        return new UserLoginData(DocumentType.CEDULA, "17027470", "2025", "", "", "");
+        return new UserLoginData(DocumentType.CEDULA, "17027470", "4321", "", "", "");
       }
     },
     LENIN("Lenin", "usuario con cta AH y puntos TuPlus") {

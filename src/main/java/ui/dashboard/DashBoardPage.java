@@ -88,4 +88,8 @@ public class DashBoardPage {
   public static final String VALIDATION_TAG = "div.bdb-at-toast__content__message";
   public static final String HOST_TAG_DETAIL =
       "body > app-root > ion-app > ion-router-outlet > bdb-product-detail > ion-content > div > bdb-at-toast:nth-child(3)";
+  public static final Target OPTION_CARD4 =
+          Target.the("Card numero 4")
+                  .locatedBy("(//*[@id=\"bdb-product-info-card\"])[4]");
+
 }
