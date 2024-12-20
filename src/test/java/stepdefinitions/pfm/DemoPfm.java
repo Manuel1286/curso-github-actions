@@ -2,7 +2,7 @@ package stepdefinitions.pfm;
 
 import static tasks.pfm.DemoBackQueryOptionTask.demoBackQueryOptionTask;
 import static tasks.pfm.DemoFinancesTask.demoFinancesTask;
-import static tasks.pfm.DemoTextsTask.demoTextsTask;
+import static tasks.pfm.demo.DemoTextsTask.demoTextsTask;
 
 import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.actors.OnStage;

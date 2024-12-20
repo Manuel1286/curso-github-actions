@@ -48,14 +48,13 @@ public class LogIn implements Task {
             Enter.theValue(loginData.getDocumentNumber()).into(DOCUMENT_NUMBER),
             Click.on(KEY),
             Enter.theValue(loginData.getPassword()).into(KEY),
-            Click.on(CHECK_TC),
+            //Click.on(CHECK_TC),
             Click.on(LOGIN_BUTTON),
             ModalDevice.modalDevice());
   }
   private <T extends Actor> void handleOtherUserLogin(T actor) {
 
     actor.attemptsTo(Click.on(OTHER_USER));
-    Pause.withDuration(5000);
     ShadowRoot.clickOnElementInsideOneShadowRoot(HOST_OTHER_USER, H_OTHER_USER);
     actor.attemptsTo(Click.on(DESVINCULAR));
   }
