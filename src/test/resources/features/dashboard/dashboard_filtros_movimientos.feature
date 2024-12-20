@@ -15,6 +15,7 @@ Característica: Como cliente de banco de Bogotá quiero ver los movimientos a t
       |Filtrar por: |Movimientos    |Fecha      |Valor    |
       |Palabra      |Intereses      |31 oct 2024|+$ 17.955|
       |monto        |10000 a $20000 |31 oct 2024|+$ 17.955|
+      |Fecha        |10000 a $20000 |31 oct 2024|+$ 17.955|
 
 
 

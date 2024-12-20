@@ -13,18 +13,7 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 import static constants.ConstantsForgetPasword.CREDIT_CARD;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import static ui.dashboard.DashboardFilterPage.SAVINGS_ACCOUNT;
-import static ui.dashboard.DashboardFilterPage.MOVEMENTS;
-import static ui.dashboard.DashboardFilterPage.SEE_ALL;
-import static ui.dashboard.DashboardFilterPage.FILTER_WORD;
-import static ui.dashboard.DashboardFilterPage.HOST_WORD;
-import static ui.dashboard.DashboardFilterPage.WORD;
-import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH;
-import static ui.dashboard.DashboardFilterPage.FILTER_AMOUNT;
-import static ui.dashboard.DashboardFilterPage.MINIMUM_RANGE;
-import static ui.dashboard.DashboardFilterPage.MAXIMUM_RANGE;
-import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH_AMOUNT;
-
+import static ui.dashboard.DashboardFilterPage.*;
 
 
 @AllArgsConstructor
@@ -74,6 +63,14 @@ public class FilterMovementBy implements Task {
                     Click.on(MAXIMUM_RANGE).then(Enter.theValue("20000").into(MAXIMUM_RANGE)),
                         Click.on(BUTTON_SEARCH_AMOUNT)
                 );
+                break;
+            case "Fecha":
+                actor.attemptsTo(Click.on(FILTER_DATE_MOVEMENTS));
+                ShadowRoot.clickAndScrollOnElementInsideOneShadowRoot(HOST_FILTER_MOVEMENTS, FILTER_DESDE_SR);
+                ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
+                        HOST_FILTER_MOVEMENTS,FILTER_CALENDAR_DATE,NOVEMBER_ONE_2024);
+                ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
+                        HOST_FILTER_MOVEMENTS,FILTER_CALENDAR_DATE,NOVEMBER_TWENTY_2024);
                 break;
             default:
                 throw new IllegalArgumentException("Tipo de filtro no soportado: " + filter);
