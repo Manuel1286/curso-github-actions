@@ -1,17 +1,14 @@
 package utils;
 
 import static constants.ConstantLogin.LOGIN_DATA_KEY;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 import constants.ConstantsForgetPasword;
-import interactions.ValidateDemo;
+
 import java.util.Arrays;
+
 import models.DocumentType;
 import models.UserLoginData;
 import net.serenitybdd.screenplay.actors.OnStage;
-import net.serenitybdd.screenplay.conditions.Check;
-import net.serenitybdd.screenplay.questions.WebElementQuestion;
-import ui.login.DemoPage;
 
 public class DataManager {
   private DataManager() { }
@@ -778,8 +775,5 @@ public class DataManager {
     OnStage.theActorCalled(actorName)
         .describedAs(user.description)
         .remember(LOGIN_DATA_KEY, user.loginData());
-    OnStage.withCurrentActor(
-        Check.whether(WebElementQuestion.the(DemoPage.TITLE_DEMO), isVisible())
-            .andIfSo(ValidateDemo.toTheApplication()));
   }
 }

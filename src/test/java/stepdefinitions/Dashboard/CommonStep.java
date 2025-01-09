@@ -1,4 +1,4 @@
-package stepdefinitions;
+package stepdefinitions.dashboard;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
