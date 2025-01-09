@@ -11,12 +11,13 @@ import tasks.dashboard.SelectOptionTag;
 public class TagAvalSteps {
 
   @Cuando("selecciona la opción de copiar tag aval en la {string}")
-  public void selecciona_la_opción_de_copiar_tag_aval_en_la_dashboard(String section) {
+  public void seleccionaLaOpcionDeCopiarTagAvalEnLaDashboard(String section) {
     theActorInTheSpotlight().attemptsTo(SelectOptionTag.tag(section));
   }
 
-  @Entonces("deberia visualizar el siguiente {string}")
-  public void deberia_visualizar_el_siguiente(String tag) {
+  @Entonces("debería visualizar el siguiente {string}")
+  public void deberiaVisualizarElSiguiente(String tag) {
     theActorInTheSpotlight().should(seeThat(TagAvalQuestion.match(tag)));
   }
+
 }

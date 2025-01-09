@@ -35,8 +35,8 @@ jobs:
       CLIENT_ID_XRAY: ${{ secrets.CLIENT_ID_XRAY }}
       CLIENT_SECRET_XRAY: ${{ secrets.CLIENT_SECRET_XRAY }}
       OTHERS: >
-        BROWSERSTACK_ACCESS_USER=${{ secrets.BROWSERSTACK_ACCESS_USER }}
-        BROWSERSTACK_ACCESS_KEY=${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        BROWSERSTACK_USER=${{ secrets.BROWSERSTACK_ACCESS_USER }}
+        BROWSERSTACK_KEY=${{ secrets.BROWSERSTACK_ACCESS_KEY }}
 
   integration-security-tests:
     uses: bancodebogota/bbog-dig-do-testing-pipeline/.github/workflows/test_security_integration.yml@v7
