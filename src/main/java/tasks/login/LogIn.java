@@ -42,6 +42,7 @@ public class LogIn implements Task {
 
   private <T extends Actor> void performLogin(T actor) {
     actor.attemptsTo(
+            Pause.withDuration(10000),
         ValidateDemo.toTheApplication(),
         Click.on(TYPE_DOCUMENT),
         SelectDocuments.withName(loginData.getDocumentType()),
