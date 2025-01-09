@@ -25,6 +25,8 @@ jobs:
       path-report-file: target/destination/cucumber.json
       test-plan-key: ACD-1
       test-exec-key: ACD-349
+      browserstack-build-name: "DASH_PFM"
+      browserstack-project-name: "BM"
       files-to-export: >  
         target/site/serenity/serenity-summary.html
         target/site/serenity/results.csv
