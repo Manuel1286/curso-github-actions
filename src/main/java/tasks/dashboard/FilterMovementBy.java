@@ -13,7 +13,23 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 import static constants.ConstantsForgetPasword.CREDIT_CARD;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import static ui.dashboard.DashboardFilterPage.*;
+import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH;
+import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH_AMOUNT;
+import static ui.dashboard.DashboardFilterPage.FILTER_AMOUNT;
+import static ui.dashboard.DashboardFilterPage.FILTER_CALENDAR_DATE;
+import static ui.dashboard.DashboardFilterPage.FILTER_DATE_MOVEMENTS;
+import static ui.dashboard.DashboardFilterPage.FILTER_DESDE_SR;
+import static ui.dashboard.DashboardFilterPage.FILTER_WORD;
+import static ui.dashboard.DashboardFilterPage.HOST_FILTER_MOVEMENTS;
+import static ui.dashboard.DashboardFilterPage.HOST_WORD;
+import static ui.dashboard.DashboardFilterPage.MAXIMUM_RANGE;
+import static ui.dashboard.DashboardFilterPage.MINIMUM_RANGE;
+import static ui.dashboard.DashboardFilterPage.MOVEMENTS;
+import static ui.dashboard.DashboardFilterPage.NOVEMBER_ONE_2024;
+import static ui.dashboard.DashboardFilterPage.NOVEMBER_TWENTY_2024;
+import static ui.dashboard.DashboardFilterPage.SAVINGS_ACCOUNT;
+import static ui.dashboard.DashboardFilterPage.SEE_ALL;
+import static ui.dashboard.DashboardFilterPage.WORD;
 
 
 @AllArgsConstructor
@@ -53,8 +69,7 @@ public class FilterMovementBy implements Task {
                 );
                 ShadowRoot.sendKeysToElementInsideOneShadowRoot(HOST_WORD, WORD, "Intereses");
                 actor.attemptsTo(
-                    Click.on(BUTTON_SEARCH)
-                );
+                    Click.on(BUTTON_SEARCH));
                 break;
             case "monto":
                 actor.attemptsTo(
@@ -67,10 +82,10 @@ public class FilterMovementBy implements Task {
             case "Fecha":
                 actor.attemptsTo(Click.on(FILTER_DATE_MOVEMENTS));
                 ShadowRoot.clickAndScrollOnElementInsideOneShadowRoot(HOST_FILTER_MOVEMENTS, FILTER_DESDE_SR);
+                ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(HOST_FILTER_MOVEMENTS, FILTER_CALENDAR_DATE, NOVEMBER_ONE_2024);
                 ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-                        HOST_FILTER_MOVEMENTS,FILTER_CALENDAR_DATE,NOVEMBER_ONE_2024);
-                ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-                        HOST_FILTER_MOVEMENTS,FILTER_CALENDAR_DATE,NOVEMBER_TWENTY_2024);
+                        HOST_FILTER_MOVEMENTS, FILTER_CALENDAR_DATE, NOVEMBER_TWENTY_2024);
+
                 break;
             default:
                 throw new IllegalArgumentException("Tipo de filtro no soportado: " + filter);
