@@ -552,7 +552,13 @@ public class DataManager {
     CANDANCEE("Candancee", "Usuario con PFM") {
       @Override
       public UserLoginData loginData() {
-        return new UserLoginData(DocumentType.CEDULA, "2007607", "1234", "", "", "");
+        return new UserLoginData(DocumentType.TARJETA_IDENTIDAD, "9905011329", "1234", "", "", "");
+      }
+    },
+    CANDANCE("Candance", "Usuario con PFM") {
+      @Override
+      public UserLoginData loginData() {
+        return new UserLoginData(DocumentType.CEDULA, "2007608", "1234", "", "", "");
       }
     },
 
@@ -708,12 +714,39 @@ public class DataManager {
         return new UserLoginData(DocumentType.CEDULA, "80791886", "2222", "", "", "");
       }
     },
+    CAMILAN("CamilaN", "Usuario sin saldo en TC monoproducto") {
+      @Override
+      public UserLoginData loginData() {
+        return new UserLoginData(DocumentType.CEDULA, "2006449", "1234", "", "", "");
+      }
+    },
+    DANIN("DaniN", "Usuario sin saldo en TC monoproducto") {
+      @Override
+      public UserLoginData loginData() {
+        return new UserLoginData(DocumentType.REGISTRO_CIVIL, "1100004962", "1234", "", "", "");
+      }
+    },
+    GABRIELA("Gabriela", "USER PARA SERVICIOS PUBLICOS") {
+      @Override
+      public UserLoginData loginData() {
+        return new UserLoginData(DocumentType.CEDULA_EXTRANJERIA, "203470", "2026", "", "", "");
+      }
+    },
+    JOHOX("Johox", "Usuario monocuenta con saldo PMA") {
+      @Override
+      public UserLoginData loginData() {
+        return new UserLoginData(DocumentType.REGISTRO_CIVIL, "1100004962", "1234", "", "", "");
+      }
+    },
     DAMIAN("Damian", "usuario no Existe") {
       @Override
       public UserLoginData loginData() {
         return new UserLoginData(DocumentType.CEDULA, "73101367", "1234", "", "", "");
       }
+
     };
+
+
     public final String userName;
     public final String description;
 

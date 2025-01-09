@@ -15,7 +15,7 @@ public class ModalDevice implements Interaction {
   @Override
   public <T extends Actor> void performAs(T actor) {
     try {
-      Thread.sleep(5000);
+      Thread.sleep(10000);
       if (BUTTON_BEGINNIG.resolveFor(actor).isPresent()) {
         actor.attemptsTo(Click.on(BUTTON_BEGINNIG), ValidateLogin.toTheApplication());
       } else {

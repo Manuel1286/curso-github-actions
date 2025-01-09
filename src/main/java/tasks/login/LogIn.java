@@ -27,11 +27,9 @@ public class LogIn implements Task {
   public LogIn(UserLoginData loginData) {
     this.loginData = loginData;
   }
-
   public static LogIn withData(UserLoginData loginData) {
     return instrumented(LogIn.class, loginData);
   }
-
   @Override
   public <T extends Actor> void performAs(T actor) {
     if (TYPE_DOCUMENT.resolveFor(actor).isPresent()) {
