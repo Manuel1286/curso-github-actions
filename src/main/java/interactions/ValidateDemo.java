@@ -20,6 +20,7 @@ public class ValidateDemo implements Interaction {
   @Override
   public <T extends Actor> void performAs(T actor) {
     if (BUTTON_SKIP.resolveFor(actor).isPresent()) {
+      Pause.withDuration(5000);
       actor.attemptsTo(Click.on(BUTTON_SKIP));
     } else {
       LOGGER.warn("No se encontró el botón Demo");
