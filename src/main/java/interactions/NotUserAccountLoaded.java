@@ -1,14 +1,12 @@
 package interactions;
 
-
+import static ui.dashboard.DashBoardPage.FAILURE_WINDOW_FOR_DATA_SAVING;
+import static ui.dashboard.DashBoardPage.TOAST_MESSAGE_SAVING_ACCOUNT;
 
 import exceptions.NotDataFoundSavingAccount;
 import net.serenitybdd.markers.IsHidden;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
-
-import static ui.dashboard.DashBoardPage.FAILURE_WINDOW_FOR_DATA_SAVING;
-import static ui.dashboard.DashBoardPage.TOAST_MESSAGE_SAVING_ACCOUNT;
 
 public class NotUserAccountLoaded implements Interaction, IsHidden {
 

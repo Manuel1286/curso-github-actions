@@ -1,6 +1,5 @@
 package questions;
 
-import static constants.ConstantLogin.OTP;
 import static constants.ConstantsDetailedBalance.LBL_ADVANCE;
 import static constants.ConstantsDetailedBalance.LBL_DOCUMENTS;
 import static constants.ConstantsDetailedBalance.LBL_MOVEMENTS;
@@ -45,8 +44,6 @@ import static ui.documents.DocumentPage.LBL_HEADER_DOCUMENT_ACCORDION;
 import static ui.documents.DocumentPage.SHADOW_OPT_EXTRACTS;
 import static ui.documents.DocumentPage.SHADOW_OPT_REFERENCES;
 import static ui.documents.DocumentPage.SHADOW_OPT_STATEMENTS;
-import static ui.login.DeviceControlPage.BTN_VERIFY;
-import static ui.login.DeviceControlPage.WRITE_OTP;
 import static ui.payments.PaymentHistoryPage.OPT_HISTORY_ACCORDION;
 import static ui.payments.PaymentPage.LBL_HEADER_ACCORDION;
 import static ui.payments.PaymentPage.LBL_HEADER_ACCORDION_ADVANCE;
@@ -112,8 +109,14 @@ public class ValidateShortcutOptionsQuestion implements Question<Boolean> {
             CommonQuestions.textEquals(OPT_PAYROLL_CARDS, LBL_ACCORDION_PAYROLL);
             CommonQuestions.textEquals(OPT_HISTORY_ACCORDION, LBL_ACCORDION_HISTORY);
           } else {
-              CommonQuestions.compareTextVsText( ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_PAYMENT, TITLE_PRODUCT_DETAIL_ELEMENT_PAYMENT), product);
-              CommonQuestions.compareTextVsText(ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_PAYMENT, TXT_PRODUCT_DETAIL_ELEMENT_PAYMENT), productNumber);
+            CommonQuestions.compareTextVsText(
+                ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                    TITLE_PRODUCT_DETAIL_HOST_PAYMENT, TITLE_PRODUCT_DETAIL_ELEMENT_PAYMENT),
+                product);
+            CommonQuestions.compareTextVsText(
+                ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                    TITLE_PRODUCT_DETAIL_HOST_PAYMENT, TXT_PRODUCT_DETAIL_ELEMENT_PAYMENT),
+                productNumber);
           }
           break;
 
@@ -125,9 +128,15 @@ public class ValidateShortcutOptionsQuestion implements Question<Boolean> {
             CommonQuestions.textEquals(OPT_DONATION_ACCORDION, LBL_ACCORDION_DONATION);
             CommonQuestions.textEquals(OPT_TAG_AVAL, LBL_TAG_AVAL);
             CommonQuestions.textEquals(OPT_TRANSFER_HISTORY_ACCORDION, LBL_ACCORDION_HISTORY);
-          }else {
-            CommonQuestions.compareTextVsText(ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_TRANSFER, TITLE_PRODUCT_DETAIL_ELEMENT_TRANSFER), product);
-            CommonQuestions.compareTextVsText(ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_TRANSFER, TXT_PRODUCT_DETAIL_ELEMENT_TRANSFER), productNumber);
+          } else {
+            CommonQuestions.compareTextVsText(
+                ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                    TITLE_PRODUCT_DETAIL_HOST_TRANSFER, TITLE_PRODUCT_DETAIL_ELEMENT_TRANSFER),
+                product);
+            CommonQuestions.compareTextVsText(
+                ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                    TITLE_PRODUCT_DETAIL_HOST_TRANSFER, TXT_PRODUCT_DETAIL_ELEMENT_TRANSFER),
+                productNumber);
           }
           break;
 
@@ -153,25 +162,34 @@ public class ValidateShortcutOptionsQuestion implements Question<Boolean> {
             CommonQuestions.textEquals(OPT_FILTER_AMOUNT, LBL_FILTER_AMOUNT);
           } else {
             actor.attemptsTo(
-                    Wait.until(stateOf(LBL_PRODUCT_NAME), isVisible()).forNoMoreThan(15).seconds()
-            );
+                Wait.until(stateOf(LBL_PRODUCT_NAME), isVisible()).forNoMoreThan(15).seconds());
             CommonQuestions.textEquals(LBL_PRODUCT_NAME, product);
             CommonQuestions.textEquals(LBL_PRODUCT_NUMBER, productNumber);
           }
           break;
         case LBL_ADVANCE:
           CommonQuestions.textEquals(LBL_HEADER_ACCORDION_ADVANCE, LBL_HEADER_LBL_ADVANCE);
-          CommonQuestions.compareTextVsText( ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_ADVANCE, TITLE_PRODUCT_DETAIL_ELEMENT_ADVANCE), product);
-          CommonQuestions.compareTextVsText( ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_ADVANCE, TXT_PRODUCT_DETAIL_ELEMENT_ADVANCE), productNumber);
+          CommonQuestions.compareTextVsText(
+              ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                  TITLE_PRODUCT_DETAIL_HOST_ADVANCE, TITLE_PRODUCT_DETAIL_ELEMENT_ADVANCE),
+              product);
+          CommonQuestions.compareTextVsText(
+              ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                  TITLE_PRODUCT_DETAIL_HOST_ADVANCE, TXT_PRODUCT_DETAIL_ELEMENT_ADVANCE),
+              productNumber);
           break;
         case LBL_WITDRAWAL:
-          if (product.contains(LBL_PRODUCT_TRUST)){
-            CommonQuestions.compareTextVsText(ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_TRUST,TITLE_PRODUCT_DETAIL_ELEMENT_TRUST), product);
-            CommonQuestions.compareTextVsText( ShadowRoot.getTextOfElementInsideOneShadowRoot(TITLE_PRODUCT_DETAIL_HOST_TRUST, TXT_PRODUCT_DETAIL_ELEMENT_TRUST), productNumber);
-          }else {
-            actor.attemptsTo(
-                    Security.action()
-            );
+          if (product.contains(LBL_PRODUCT_TRUST)) {
+            CommonQuestions.compareTextVsText(
+                ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                    TITLE_PRODUCT_DETAIL_HOST_TRUST, TITLE_PRODUCT_DETAIL_ELEMENT_TRUST),
+                product);
+            CommonQuestions.compareTextVsText(
+                ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                    TITLE_PRODUCT_DETAIL_HOST_TRUST, TXT_PRODUCT_DETAIL_ELEMENT_TRUST),
+                productNumber);
+          } else {
+            actor.attemptsTo(Security.action());
 
             CommonQuestions.textEquals(LBL_HEADER_ACCORDION, LBL_ACCORDION_WITHDRAWAL);
           }

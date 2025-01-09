@@ -18,7 +18,6 @@ public class ShadowRoot {
   private static final String QUERY_LIST = "return arguments[0].shadowRoot.querySelectorAll";
   private static final JavascriptExecutor JS_EXECUTOR = (JavascriptExecutor) getDriver();
 
-
   public static void clickOnElementInsideOneShadowRoot(
       String firstShadowHost, String firstNestedShadowedInput) {
     firstJsExecutorMethod(firstShadowHost, firstNestedShadowedInput).click();
@@ -93,7 +92,7 @@ public class ShadowRoot {
     findShadowHost =
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(firstShadowHost)));
     return (List<WebElement>)
-            JS_EXECUTOR.executeScript(
+        JS_EXECUTOR.executeScript(
             QUERY_LIST + "('" + firstNestedShadowedInput + "');", findShadowHost);
   }
 
@@ -102,7 +101,7 @@ public class ShadowRoot {
     WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
     findShadowHost = wait.until(ExpectedConditions.presenceOfElementLocated(elementHost));
     return (List<WebElement>)
-            JS_EXECUTOR.executeScript(
+        JS_EXECUTOR.executeScript(
             QUERY_LIST + "('" + firstNestedShadowedInput + "');", findShadowHost);
   }
 
@@ -121,26 +120,26 @@ public class ShadowRoot {
     elementHost = By.cssSelector(firstShadowHost);
     findShadowHost = getDriver().findElement(elementHost);
     return (WebElement)
-            JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", findShadowHost);
+        JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", findShadowHost);
   }
 
   private static WebElement firstJsExecutorMethod(By selector, String firstNestedShadowedInput) {
     WebElement findShadowHost;
     findShadowHost = getDriver().findElement(selector);
     return (WebElement)
-            JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", findShadowHost);
+        JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", findShadowHost);
   }
 
   public static WebElement firstJsExecutorMethod(
       WebElement hostNode, String firstNestedShadowedInput) {
     return (WebElement)
-            JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", hostNode);
+        JS_EXECUTOR.executeScript(QUERY + "('" + firstNestedShadowedInput + "');", hostNode);
   }
 
   private static WebElement secondJsExecutorMethod(
       String firstShadowHost, String firstNestedShadowedInput, String secondNestedShadowedInput) {
     return (WebElement)
-            JS_EXECUTOR.executeScript(
+        JS_EXECUTOR.executeScript(
             QUERY + "('" + secondNestedShadowedInput + "');",
             firstJsExecutorMethod(firstShadowHost, firstNestedShadowedInput));
   }

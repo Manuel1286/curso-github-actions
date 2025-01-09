@@ -9,7 +9,6 @@ import static ui.login.DeviceControlPage.BUTTON_CONTINUE;
 import static ui.login.DeviceControlPage.BUTTON_VALIDATE;
 import static ui.login.DeviceControlPage.WRITE_OTP;
 
-
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;

@@ -7,7 +7,8 @@ public class TransferDonationPage {
   private TransferDonationPage() { }
 
   public static final Target OPT_DONATION_ACCORDION =
-      Target.the("opción de seleccionar la opción de Donaciones").locatedBy("#bdb-grid-item-wrapper-5");
+      Target.the("opción de seleccionar la opción de Donaciones")
+          .locatedBy("#bdb-grid-item-wrapper-5");
   public static final Target LBL_AGREEMENT_TELETON =
       Target.the("Label para seleccionar el convenio de Teletónn")
           .locatedBy("#donation_entity_teleton_");

@@ -19,7 +19,7 @@ public class ConstantLogin {
   public static final String NAME_ACCOUNT_BDB = "Inscrita BDB";
   public static final String NUMBER_OWNER_BDB = "80036844";
   public static final String NAME_ACCOUNT_NEQUI = "Inscrita NEQUI";
-  public static final String NAME_OWNER ="Marce Forero";
+  public static final String NAME_OWNER = "Marce Forero";
   public static final String CELL_PHONE = "3133730799";
   public static final String DOCUMENT_NUMBER = "67509";
   public static final String BTN_FINAL = "Finalizar";

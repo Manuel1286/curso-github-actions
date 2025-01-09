@@ -43,7 +43,5 @@ public class DeviceControlPage {
           .locatedBy("//button[text()='Verificar']");
 
   public static final Target BTN_VERIFY =
-          Target.the("Botón verificar")
-                  .located(By.cssSelector("#otp-validation-send-btn"));
-
+      Target.the("Botón verificar").located(By.cssSelector("#otp-validation-send-btn"));
 }

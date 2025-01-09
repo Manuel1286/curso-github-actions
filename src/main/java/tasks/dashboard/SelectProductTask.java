@@ -24,9 +24,7 @@ public class SelectProductTask implements Task {
   public <T extends Actor> void performAs(T actor) {
 
     if (productCard.equalsIgnoreCase("Crédito de Vivienda")) {
-      actor.attemptsTo(
-              Scroll.to(OPTION_CARD4).andAlignToTop()
-      );
+      actor.attemptsTo(Scroll.to(OPTION_CARD4).andAlignToTop());
     }
     List<WebElementFacade> productElements = DashBoardPage.PRODUCT_CARD_LIST.resolveAllFor(actor);
     WebElementFacade action =
@@ -38,9 +36,7 @@ public class SelectProductTask implements Task {
                 })
             .findFirst()
             .orElseThrow(() -> new NotFoundProductException(productCard));
-    actor.attemptsTo(
-            Scroll.to(action),
-            Click.on(action));
+    actor.attemptsTo(Scroll.to(action), Click.on(action));
   }
 
   public static SelectProductTask selectProduct(String productCard) {

@@ -2,6 +2,7 @@ package interactions;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static ui.login.DemoPage.BUTTON_SKIP;
+
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;

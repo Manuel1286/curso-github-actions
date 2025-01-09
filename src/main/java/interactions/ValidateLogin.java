@@ -9,7 +9,6 @@ import static ui.login.DeviceControlPage.TITLE;
 import static ui.login.FingerLoginPage.MODAL_TOUCH_ID;
 import static ui.login.FingerLoginPage.OPT_NOT_TOUCH_ID;
 
-
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;

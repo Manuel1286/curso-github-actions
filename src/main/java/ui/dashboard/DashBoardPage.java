@@ -15,7 +15,8 @@ public class DashBoardPage {
       Target.the("módulo Transferencias").locatedBy("#dash-transfers-button");
   public static final Target MORE_OPTION =
       Target.the("Perfil y configuración").locatedBy("#dash-menu-button");
-  public static final Target QR_OPTION = Target.the("botón QR").locatedBy("#dash-qr-button");
+  public static final Target QR_OPTION = Target.the("botón QR")
+          .locatedBy("#dash-qr-button");
   public static final Target BTN_PFM =
       Target.the("botón PFM").located(By.cssSelector(".bdb-header-dashboard__nav__pfm"));
   public static final Target FAILURE_WINDOW_FOR_DATA_SAVING =
@@ -89,7 +90,5 @@ public class DashBoardPage {
   public static final String HOST_TAG_DETAIL =
       "body > app-root > ion-app > ion-router-outlet > bdb-product-detail > ion-content > div > bdb-at-toast:nth-child(3)";
   public static final Target OPTION_CARD4 =
-          Target.the("Card numero 4")
-                  .locatedBy("(//*[@id=\"bdb-product-info-card\"])[4]");
-
+      Target.the("Card numero 4").locatedBy("(//*[@id=\"bdb-product-info-card\"])[4]");
 }

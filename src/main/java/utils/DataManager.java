@@ -717,7 +717,7 @@ public class DataManager {
     public final String userName;
     public final String description;
 
-     Users(String userName, String description) {
+    Users(String userName, String description) {
       this.userName = userName;
       this.description = description;
     }

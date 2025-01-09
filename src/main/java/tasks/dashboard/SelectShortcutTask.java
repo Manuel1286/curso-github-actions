@@ -1,6 +1,5 @@
 package tasks.dashboard;
 
-
 import static constants.ConstantsDetailedBalance.LBL_ADVANCE;
 import static constants.ConstantsDetailedBalance.LBL_CARDS;
 import static constants.ConstantsDetailedBalance.LBL_DOCUMENTS;

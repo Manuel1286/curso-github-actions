@@ -109,9 +109,7 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
 
       case OPT_PRODUCT_SAVINGS:
         textEquals(LBL_BALANCE_AVAILABLE_SAVINGS, LBL_BALANCE_AVAILABLE);
-        actor.attemptsTo(
-                Scroll.to(FIRST_HEADER_SWIPE)
-        );
+        actor.attemptsTo(Scroll.to(FIRST_HEADER_SWIPE));
         textEquals(LBL_TOTAL_BALANCE_SAVINGS, LBL_TOTAL_BALANCE);
         textEquals(LBL_AVAILABLE_SAVINGS, LBL_AVAILABLE);
         textEquals(LBL_EXCHANGE_BALANCE_SAVINGS, LBL_EXCHANGE);
@@ -119,9 +117,7 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
 
       case OPT_PRODUCT_CREDISERVICE:
         textEquals(LBL_BALANCE_AVAILABLE_CREDISERVICE, LBL_BALANCE_AVAILABLE);
-        actor.attemptsTo(
-                Scroll.to(FIRST_HEADER_SWIPE)
-        );
+        actor.attemptsTo(Scroll.to(FIRST_HEADER_SWIPE));
         textEquals(LBL_MINIMUM_PAYMENT_CREDISERVICE, LBL_MINIMUM_PAYMENT);
         textEquals(LBL_NEXT_PAYMENT_CREDISERVICE, LBL_NEXT_PAYMENT);
         textEquals(LBL_APPROVED_QUOTA_CREDISERVICE, LBL_APPROVED_QUOTA);
@@ -131,9 +127,7 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
 
       case OPT_PRODUCT_CREDITCARD:
         textEquals(LBL_QUOTA_SHOPPING, LBL_QUOTA_SHOPPING1);
-        actor.attemptsTo(
-                Scroll.to(FIRST_HEADER_SWIPE)
-        );
+        actor.attemptsTo(Scroll.to(FIRST_HEADER_SWIPE));
         textEquals(LBL_MINIMUM_PAYMENT_CREDISERVICE, LBL_MINIMUM_PAYMENT);
         textEquals(LBL_TOTAL_QUOTA_TC, LBL_TOTAL_QUOTA);
         textEquals(LBL_ADVANCE_QUOTA_TC, LBL_ADVANCE_QUOTA);
@@ -142,18 +136,14 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
 
       case OPT_PRODUCT_CDT:
         textEquals(LBL_BALANCE_AVAILABLE_CURRENT, LBL_TOTAL_VALUE);
-        actor.attemptsTo(
-                Scroll.to(SECOND_HEADER_SWIPE)
-        );
+        actor.attemptsTo(Scroll.to(SECOND_HEADER_SWIPE));
         textEquals(LBL_TOTAL_VALUE_CDT, LBL_PERFORMANCE);
         textEquals(LBL_EXPIRATION_DATE_CDT, LBL_EXPIRATION_DATE);
         return true;
 
       case OPT_PRODUCT_TRUST:
         textEquals(LBL_TOTAL_BALANCE_TRUST, LBL_TOTAL_BALANCE);
-        actor.attemptsTo(
-                Scroll.to(SECOND_HEADER_SWIPE)
-        );
+        actor.attemptsTo(Scroll.to(SECOND_HEADER_SWIPE));
         textEquals(LBL_BALANCE_AVAILABLE_TRUST, LBL_BALANCE_AVAILABLE_TRUST1);
         textEquals(LBL_EXCHANGE_BALANCE_TRUST, LBL_EXCHANGE_BALANCE);
         return true;
@@ -161,9 +151,7 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
       case OPT_PRODUCT_LOAN:
       case OPT_PRODUCT_LEASING:
         textEquals(LBL_TOTAL_PAYMENT_LEASING, LBL_FULL_PAYMENT);
-        actor.attemptsTo(
-                Scroll.to(FIRST_HEADER_SWIPE)
-        );
+        actor.attemptsTo(Scroll.to(FIRST_HEADER_SWIPE));
         textEquals(LBL_MINIMUM_PAYMENT_LEASING, LBL_MINIMUM_PAYMENT);
         textEquals(LBL_NEXT_PAYMENT_LEASING, LBL_NEXT_PAYMENT);
         textEquals(LBL_AMOUNT_APPROVED_LEASING, LBL_AMOUNT_APPROVED);
@@ -175,9 +163,7 @@ public class ValidateDataProductSwipeQuestion implements Question<Boolean> {
 
       case OPT_PRODUCT_LIBRANZA:
         textEquals(LBL_TOTAL_PAYMENT_LIBRANZA, LBL_FULL_PAYMENT);
-        actor.attemptsTo(
-                Scroll.to(SWIPE_HEADER)
-        );
+        actor.attemptsTo(Scroll.to(SWIPE_HEADER));
         textEquals(LBL_MINIMUM_PAYMENT_LIBRANZA, LBL_MINIMUM_PAYMENT);
         textEquals(LBL_AMOUNT_APPROVED_LIBRANZA, LBL_AMOUNT_APPROVED);
         return true;
