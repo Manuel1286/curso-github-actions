@@ -1,6 +1,7 @@
 package interactions;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
+import static ui.login.DeviceControlPage.BTN_TYC;
 import static ui.login.LoginPage.BUTTON_BEGINNIG;
 
 import net.serenitybdd.screenplay.Actor;
@@ -17,7 +18,10 @@ public class ModalDevice implements Interaction {
     try {
       Thread.sleep(10000);
       if (BUTTON_BEGINNIG.resolveFor(actor).isPresent()) {
-        actor.attemptsTo(Click.on(BUTTON_BEGINNIG), ValidateLogin.toTheApplication());
+        actor.attemptsTo(Click.on(BUTTON_BEGINNIG),
+                ValidateLogin.toTheApplication(),
+                Click.on(BTN_TYC)
+                );
       } else {
         actor.attemptsTo(ValidateLogin.toTheApplication());
       }

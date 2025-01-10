@@ -44,4 +44,8 @@ public class DeviceControlPage {
 
   public static final Target BTN_VERIFY =
       Target.the("Botón verificar").located(By.cssSelector("#otp-validation-send-btn"));
+
+  public static final Target BTN_TYC =
+          Target.the("Botón terminos y condiciones")
+                  .located(By.cssSelector("div.botton_options > button.botton_options__accept_btn"));
 }
