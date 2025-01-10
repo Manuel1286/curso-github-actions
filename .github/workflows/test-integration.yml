@@ -44,6 +44,6 @@ jobs:
       environment: st_pipeline
       release-id-steward: ${{ inputs.release_id }}
       repository: 'bbog-bm-automated-testing'
-      path-app: 'app/app-beta-master (1).apk'
+      path-app: 'app/app-beta-master.apk'
     secrets:
       DIG_READER_GITHUB_ACCESS_TOKEN: ${{ secrets.DIG_READER_GITHUB_ACCESS_TOKEN }}
