@@ -3,7 +3,7 @@
 
 @Credit
 Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajos e información para validar mis saldos detallados del producto Crediservice permitidos desde la app
-
+@Credit_1
   Escenario: Validar que el usuario visualice la informacion de saldos y atajos de su Crediservice
     Dado que Dark ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "Crediservice"

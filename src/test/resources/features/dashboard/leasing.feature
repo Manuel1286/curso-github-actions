@@ -3,12 +3,12 @@
 
 @LeasingProduct
 Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajos e información para validar mis saldos detallados del producto Leasing permitidos desde la app
-
+  @LeasingProduct1
   Escenario: Validar que el usuario visualice la informacion de saldos y atajos de su credito leasing
     Dado que Martin ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "Leasing"
     Entonces debería ver la información de saldos y atajos para "Leasing"
-
+  @LeasingProduct2
   Esquema del escenario: Validar que usuario con credito leasing lo redireccione a <NameCase>
     Dado que Martin ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "Leasing"

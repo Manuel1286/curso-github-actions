@@ -4,13 +4,13 @@
 @currentProduct
 Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajos e información para validar mis saldos detallados del producto Cuenta corriente permitidos desde la app
 
-
+@CC
   Escenario: Validar que el usuario visualice la informacion de saldos y atajos de su cuenta corriente
     Dado que Maria ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "Cuenta Corriente"
     Entonces debería ver la información de saldos y atajos para "Cuenta Corriente"
 
-
+@CC2
   Esquema del escenario: Validar que usuario con cuenta corriente lo redireccione a <NameCase>
     Dado que Maria ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "Cuenta Corriente"
@@ -22,4 +22,5 @@ Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajo
       | "Pagar"       | Pagar       |
       | "Transferir"  | Transferir  |
       | "Documentos"  | Documentos  |
-      | "Movimientos" | Movimientos |
+  #    | "Movimientos" | Movimientos |
+## ese user no tiene Movimientos

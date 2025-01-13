@@ -21,7 +21,7 @@ public class DashboardFilterPage {
     public static final String HOST_WORD = "#page-movements_search-word_input";
     public static final String HOST_MOVEMENT_DATE = "#dash_movements_item\\.list";
     public static final String MOVEMENT_DATE = "#product-detail_movements_item_1_card > div > div.box__content.box__content--line > div > div > div.box__content__info__title__slot > div:nth-child(1)";
-    public static final String HOST_FILTER_DATE = "body > app-root > ion-app > ion-router-outlet > bdb-movements > ion-content > div > div > div > div:nth-child(3) > div.page-movements__content__page__header__body__bdb-at-interactive-tag";
+    public static final String HOST_FILTER_DATE = ".page-movements__content__page__header__body bdb-at-interactive-tag";
     public static final String FILTER_DATE = "#bdb-at-interactive-tag > span > div > label.bdb-at-tag__label";
     public static final String VALUE_DATE = "#product-detail_movements_item_1_card > div > div.box__content.box__content--line > div > div > div.box__content__info__title__slot > div:nth-child(2) > div:nth-child(1)";
     public static final String HOST_FILTER_MOVEMENTS = "[idel='page-movements_search-date_input']";
