@@ -122,17 +122,12 @@ public class ShadowRoot {
   }
 
   public static void clickAndScrollOnElementInsideTwoShadowRoots(
-      String firstShadowHost, String firstNestedShadowedInput, String secondNestedShadowedInput) {
+          String firstShadowHost, String firstNestedShadowedInput, String secondNestedShadowedInput) {
     WebElement elementToClick =
         secondJsExecutorMethod(
             firstShadowHost, firstNestedShadowedInput, secondNestedShadowedInput);
     ((JavascriptExecutor) getDriver())
         .executeScript("arguments[0].scrollIntoView();", elementToClick);
-    try {
-      Thread.sleep(5000);
-    } catch (InterruptedException e) {
-      Thread.currentThread().interrupt();
-    }
     elementToClick.click();
   }
 

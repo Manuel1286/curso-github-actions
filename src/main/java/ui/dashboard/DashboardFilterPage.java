@@ -25,8 +25,10 @@ public class DashboardFilterPage {
     public static final String FILTER_DATE = "#bdb-at-interactive-tag > span > div > label.bdb-at-tag__label";
     public static final String VALUE_DATE = "#product-detail_movements_item_1_card > div > div.box__content.box__content--line > div > div > div.box__content__info__title__slot > div:nth-child(2) > div:nth-child(1)";
     public static final String HOST_FILTER_MOVEMENTS = "[idel='page-movements_search-date_input']";
-    public static final String FILTER_DESDE_SR = ".bdb-ml-date-picker-container__date__input']";
+    public static final String FILTER_DESDE_SR = ".bdb-ml-date-picker-container__date__input";
     public static final String FILTER_CALENDAR_DATE = "#bdb-ml-date-picker > bdb-ml-calendar";
-    public static final String NOVEMBER_ONE_2024 = "#day-1-11-2024";
-    public static final String NOVEMBER_TWENTY_2024 = "#day-20-11-2024";
+    public static final String JANUARY_ONE_2025 = "#day-1-0-2025";
+    public static final String JANUARY_13_2025 = "#day-31-0-2025";
+    public static final String APPLY = ".bdb-ml-calendar__footer__apply.bdb-at-btn.bdb-at-btn--primary.bdb-at-btn--lg";
+
 }

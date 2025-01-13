@@ -13,7 +13,8 @@ Característica: Como cliente de banco de Bogotá quiero ver los movimientos a t
 
     Ejemplos:
       |Filtrar por: |Movimientos    |Fecha      |Valor    |
-    #  |Palabra      |Intereses      |31 dic 2024|+$ 17.955|
-      #|monto        |10000 a $20000 |31 dic 2024|+$ 17.955|
-      |Fecha        |10000 a $20000 |31 dic 2024|+$ 17.955|
+      |Palabra      |Intereses      |31 dic 2024|+$ 17.955|
+      |monto        |10000 a $20000 |31 dic 2024|+$ 17.955|
+    #  |fecha        |10000 a $20000 |31 dic 2024|+$ 17.955|
+#porbar el 31 de enero para continuar con el caso 3 voy en el filtro aplicar linea 11
 

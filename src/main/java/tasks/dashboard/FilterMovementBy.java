@@ -1,6 +1,7 @@
 package tasks.dashboard;
 
 import interactions.Charge;
+import interactions.Pause;
 import utils.ShadowRoot;
 import lombok.AllArgsConstructor;
 import net.serenitybdd.screenplay.Actor;
@@ -13,23 +14,7 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 import static constants.ConstantsForgetPasword.CREDIT_CARD;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH;
-import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH_AMOUNT;
-import static ui.dashboard.DashboardFilterPage.FILTER_AMOUNT;
-import static ui.dashboard.DashboardFilterPage.FILTER_CALENDAR_DATE;
-import static ui.dashboard.DashboardFilterPage.FILTER_DATE_MOVEMENTS;
-import static ui.dashboard.DashboardFilterPage.FILTER_DESDE_SR;
-import static ui.dashboard.DashboardFilterPage.FILTER_WORD;
-import static ui.dashboard.DashboardFilterPage.HOST_FILTER_MOVEMENTS;
-import static ui.dashboard.DashboardFilterPage.HOST_WORD;
-import static ui.dashboard.DashboardFilterPage.MAXIMUM_RANGE;
-import static ui.dashboard.DashboardFilterPage.MINIMUM_RANGE;
-import static ui.dashboard.DashboardFilterPage.MOVEMENTS;
-import static ui.dashboard.DashboardFilterPage.NOVEMBER_ONE_2024;
-import static ui.dashboard.DashboardFilterPage.NOVEMBER_TWENTY_2024;
-import static ui.dashboard.DashboardFilterPage.SAVINGS_ACCOUNT;
-import static ui.dashboard.DashboardFilterPage.SEE_ALL;
-import static ui.dashboard.DashboardFilterPage.WORD;
+import static ui.dashboard.DashboardFilterPage.*;
 
 
 @AllArgsConstructor
@@ -79,13 +64,17 @@ public class FilterMovementBy implements Task {
                         Click.on(BUTTON_SEARCH_AMOUNT)
                 );
                 break;
-            case "Fecha":
-                actor.attemptsTo(Click.on(FILTER_DATE_MOVEMENTS));
+            case "fecha":
+                actor.attemptsTo(
+                        WaitUntil.the(FILTER_DATE_MOVEMENTS, isVisible()).forNoMoreThan(10).seconds(),
+                        Click.on(FILTER_DATE_MOVEMENTS));
                 ShadowRoot.clickAndScrollOnElementInsideOneShadowRoot(HOST_FILTER_MOVEMENTS, FILTER_DESDE_SR);
-                ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(HOST_FILTER_MOVEMENTS, FILTER_CALENDAR_DATE, NOVEMBER_ONE_2024);
                 ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
-                        HOST_FILTER_MOVEMENTS, FILTER_CALENDAR_DATE, NOVEMBER_TWENTY_2024);
-
+                        HOST_FILTER_MOVEMENTS, FILTER_CALENDAR_DATE, JANUARY_ONE_2025);
+                ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
+                        HOST_FILTER_MOVEMENTS, FILTER_CALENDAR_DATE, JANUARY_13_2025);
+                ShadowRoot.clickAndScrollOnElementInsideTwoShadowRoots(
+                        HOST_FILTER_MOVEMENTS, FILTER_CALENDAR_DATE, APPLY);
                 break;
             default:
                 throw new IllegalArgumentException("Tipo de filtro no soportado: " + filter);

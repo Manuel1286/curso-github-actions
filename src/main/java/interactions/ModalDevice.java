@@ -19,8 +19,8 @@ public class ModalDevice implements Interaction {
       Thread.sleep(10000);
       if (BUTTON_BEGINNIG.resolveFor(actor).isPresent()) {
         actor.attemptsTo(Click.on(BUTTON_BEGINNIG),
-                ValidateLogin.toTheApplication()
-               // Click.on(BTN_TYC)
+                ValidateLogin.toTheApplication(),
+                Click.on(BTN_TYC)
                 );
       } else {
         actor.attemptsTo(ValidateLogin.toTheApplication());
