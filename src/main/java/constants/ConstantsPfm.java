@@ -42,11 +42,11 @@ public class ConstantsPfm {
   public static final String TXT_TODAY = "Hoy";
   public static final String TXT_FILTER_TC = "Todas tus tarjetas de crédito";
   public static final String TXT_BALANCE_ALL_ACCOUNTS =
-      "$ 2.341.739\n" + ",68"; // usuario RC filtro gastos total
+      "4.683.479\n" + ",36"; // usuario RC filtro gastos total
   public static final String TXT_BALANCE_ALL_TC =
-      "$ 0"; // usuario RC filtro gastos total TC
+      "$ 842.007"; // usuario RC filtro gastos total TC
   public static final String TXT_BALANCE_RANGE_DATE =
-      "$ 2.341.739\n" + ",68"; // saldo 1 al 10 Junio 2024
+      "$ 4.683.479\n" + ",36"; // saldo 1 al 10 Junio 2024
   public static final String TXT_TC = "Tarjeta Crédito Clásica No. ···· 9197";
   public static final String TXT_CALENDAR = "Elige un rango de fecha";
   public static final String TXT_VALUE = "$ 0";

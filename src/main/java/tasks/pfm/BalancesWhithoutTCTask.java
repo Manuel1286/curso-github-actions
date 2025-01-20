@@ -16,7 +16,8 @@ public class BalancesWhithoutTCTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         CommonQuestions.compareTextVsText(
-            ShadowRoot.getTextOfElementInsideOneShadowRoot(Accounts.SD_BUTTON_LIST, Accounts.LBL_ALL_ACCOUNTS), TXT_TC
+            ShadowRoot.getTextOfElementInsideOneShadowRoot(
+                    Accounts.SD_BUTTON_LIST, Accounts.LBL_ALL_ACCOUNTS), TXT_TC
         );
     }
 }

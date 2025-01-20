@@ -5,6 +5,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
 import static ui.dashboard.DashBoardPage.FAILURE_WINDOW_FOR_DATA_SAVING;
 import static ui.dashboard.DashBoardPage.TOAST_MESSAGE_SAVING_ACCOUNT;
+import static ui.login.DeviceControlPage.BTN_TYC;
 import static ui.login.DeviceControlPage.TITLE;
 import static ui.login.FingerLoginPage.MODAL_TOUCH_ID;
 import static ui.login.FingerLoginPage.OPT_NOT_TOUCH_ID;
@@ -32,6 +33,7 @@ public class ValidateLogin implements Interaction {
         Check.whether(the(TOAST_MESSAGE_SAVING_ACCOUNT), isVisible())
             .andIfSo(NotUserAccountLoaded.failTest()),
         Check.whether(the(MODAL_TOUCH_ID), isVisible()).andIfSo(Click.on(OPT_NOT_TOUCH_ID)),
+            Check.whether(the(BTN_TYC), isVisible()).andIfSo(Click.on(BTN_TYC)),
         CloseCoachMark.closeCoachMark());
   }
 }

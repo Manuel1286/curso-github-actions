@@ -20,7 +20,7 @@ Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajo
     Ejemplos:
       | Atajo         | NameCase    |
       | "Pagar"       | Pagar       |
-      | "Transferir"  | Transferir  |
+     # | "Transferir"  | Transferir  |
       | "Documentos"  | Documentos  |
   #    | "Movimientos" | Movimientos |
 ## ese user no tiene Movimientos

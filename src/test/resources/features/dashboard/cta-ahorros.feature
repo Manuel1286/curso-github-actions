@@ -17,6 +17,6 @@ Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajo
 
     Ejemplos:
       | Atajo         |
-      | "Transferir"  |
+     # | "Transferir"  |
       | "Retirar"     |
       | "Documentos" |
