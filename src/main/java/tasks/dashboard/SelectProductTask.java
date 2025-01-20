@@ -5,6 +5,8 @@ import static ui.dashboard.DashBoardPage.OPTION_CARD4;
 
 import exceptions.NotFoundProductException;
 import java.util.List;
+
+import interactions.CloseCoachMark;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -36,7 +38,9 @@ public class SelectProductTask implements Task {
                 })
             .findFirst()
             .orElseThrow(() -> new NotFoundProductException(productCard));
-    actor.attemptsTo(Scroll.to(action), Click.on(action));
+    actor.attemptsTo(Scroll.to(action),
+            Click.on(action),
+            CloseCoachMark.closeCoachMark());
   }
 
   public static SelectProductTask selectProduct(String productCard) {

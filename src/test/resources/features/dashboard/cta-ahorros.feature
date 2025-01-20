@@ -16,7 +16,7 @@ Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajo
     Entonces debería redireccionarse al atajo de <Atajo> de su producto "Cuenta de Ahorros" número "No. 008476889"
 
     Ejemplos:
-      | Atajo         |
-     # | "Transferir"  |
-      | "Retirar"     |
+      | Atajo        |
+      |"Transferir"  |
+      | "Retirar"    |
       | "Documentos" |

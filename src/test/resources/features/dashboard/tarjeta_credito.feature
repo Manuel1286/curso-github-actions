@@ -25,4 +25,4 @@ Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajo
     Dado que Richi ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "Tarjeta Crédito"
     Y seleccione el atajo de "Avance"
-  #  Entonces debería redireccionarse al atajo de "Avance" de su producto "Tarjeta Crédito Gold" número "No. · · · · 4504"
+    Entonces debería redireccionarse al atajo de "Avance" de su producto "Tarjeta Crédito Gold" número "No. · · · · 4504"

@@ -27,10 +27,13 @@ import static ui.dashboard.BalanceDetailProductPage.OPT_TO_SHARE;
 import static ui.dashboard.BalanceDetailProductPage.OPT_TRANSFER;
 import static ui.dashboard.BalanceDetailProductPage.OPT_WITDRAWAL;
 import static ui.login.DeviceControlPage.ICON_CHARGE;
+import static ui.login.DeviceControlPage.WRITE_OTP;
 
 import exceptions.NotAccordionOptionException;
 import interactions.Charge;
 import java.util.Arrays;
+
+import interactions.Security;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.conditions.Check;
@@ -122,6 +125,7 @@ public class SelectShortcutTask {
     OnStage.theActorInTheSpotlight()
         .attemptsTo(
             Click.on(optionShortcut.shortcutOptions()),
-            Check.whether(the(ICON_CHARGE), isVisible()).andIfSo(Charge.icon()));
+            Check.whether(the(ICON_CHARGE), isVisible()).andIfSo(Charge.icon()),
+            Check.whether(the(WRITE_OTP), isVisible()).andIfSo(Security.action()));
   }
 }

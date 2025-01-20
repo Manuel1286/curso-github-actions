@@ -17,7 +17,7 @@ public class PaymentPage {
       "label.bdb-ml-content-title__left__content__text";
   public static final Target LBL_HEADER_ACCORDION_ADVANCE =
       Target.the("Label header menú accordion advance")
-          .located(By.xpath("//*[contains(text(),'Detalle del avance')]"));
+          .located(By.xpath("//*[contains(text(),'Avance tarjeta crédito')]"));
   public static final String TITLE_PRODUCT_DETAIL_HOST_PAYMENT = "bdb-ml-content-title";
   public static final String LBL_PRODUCT_NUMBER_SP =
       "#card-list-0 > div.bdb-ml-card-list__main-content > div > div > div.bdb-ml-card-list__main-content__header__detail__description";

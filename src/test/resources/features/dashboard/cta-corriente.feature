@@ -15,12 +15,11 @@ Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajo
     Dado que Maria ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "Cuenta Corriente"
     Y seleccione el atajo de <Atajo>
-    Entonces debería redireccionarse al atajo de <Atajo> de su producto "Cuenta Corriente" número "1234"
+    Entonces debería redireccionarse al atajo de <Atajo> de su producto "Cuenta Corriente" número "No. 019869957"
 
     Ejemplos:
       | Atajo         | NameCase    |
       | "Pagar"       | Pagar       |
-     # | "Transferir"  | Transferir  |
+      | "Transferir"  | Transferir  |
       | "Documentos"  | Documentos  |
-  #    | "Movimientos" | Movimientos |
-## ese user no tiene Movimientos
+      | "Movimientos" | Movimientos |
