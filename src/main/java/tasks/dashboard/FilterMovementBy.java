@@ -1,7 +1,6 @@
 package tasks.dashboard;
 
 import interactions.Charge;
-import interactions.Pause;
 import utils.ShadowRoot;
 import lombok.AllArgsConstructor;
 import net.serenitybdd.screenplay.Actor;
@@ -14,7 +13,24 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 import static constants.ConstantsForgetPasword.CREDIT_CARD;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import static ui.dashboard.DashboardFilterPage.*;
+import static ui.dashboard.DashboardFilterPage.APPLY;
+import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH;
+import static ui.dashboard.DashboardFilterPage.BUTTON_SEARCH_AMOUNT;
+import static ui.dashboard.DashboardFilterPage.FILTER_AMOUNT;
+import static ui.dashboard.DashboardFilterPage.FILTER_CALENDAR_DATE;
+import static ui.dashboard.DashboardFilterPage.FILTER_DATE_MOVEMENTS;
+import static ui.dashboard.DashboardFilterPage.FILTER_DESDE_SR;
+import static ui.dashboard.DashboardFilterPage.FILTER_WORD;
+import static ui.dashboard.DashboardFilterPage.HOST_FILTER_MOVEMENTS;
+import static ui.dashboard.DashboardFilterPage.HOST_WORD;
+import static ui.dashboard.DashboardFilterPage.JANUARY_13_2025;
+import static ui.dashboard.DashboardFilterPage.JANUARY_ONE_2025;
+import static ui.dashboard.DashboardFilterPage.MAXIMUM_RANGE;
+import static ui.dashboard.DashboardFilterPage.MINIMUM_RANGE;
+import static ui.dashboard.DashboardFilterPage.MOVEMENTS;
+import static ui.dashboard.DashboardFilterPage.SAVINGS_ACCOUNT;
+import static ui.dashboard.DashboardFilterPage.SEE_ALL;
+import static ui.dashboard.DashboardFilterPage.WORD;
 
 
 @AllArgsConstructor

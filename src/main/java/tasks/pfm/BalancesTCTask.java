@@ -9,7 +9,6 @@ import questions.CommonQuestions;
 import ui.pfm.Accounts;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.pfm.Balances.BALANCES_ALL_TC;
 import static ui.pfm.Balances.BALANCES_RANGE_DATE;
 import static ui.pfm.FinancesDemo.SDR_YOUR_ACCOUNTS;
 

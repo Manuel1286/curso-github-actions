@@ -1,7 +1,6 @@
 package interactions;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.login.DeviceControlPage.BTN_TYC;
 import static ui.login.LoginPage.BUTTON_BEGINNIG;
 
 import net.serenitybdd.screenplay.Actor;

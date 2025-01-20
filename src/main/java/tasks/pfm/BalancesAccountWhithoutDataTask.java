@@ -13,7 +13,12 @@ import static tasks.pfm.CalendarTask.calendarTask;
 import static ui.pfm.Accounts.BUTTON_ACCOUNTS;
 import static ui.pfm.Accounts.BUTTON_SEARCH;
 import static ui.pfm.Accounts.VALUE;
-import static ui.pfm.Calendar.*;
+
+import static ui.pfm.Calendar.BTN_APPLY;
+import static ui.pfm.Calendar.BUTTON_HOST_CALENDAR;
+import static ui.pfm.Calendar.ONE_JANUARY_DATE_CALENDAR;
+import static ui.pfm.Calendar.SD_OPEN_CALENDAR;
+import static ui.pfm.Calendar.TWO_JANUARY_DATE_CALENDAR;
 import static ui.pfm.FinancesDemo.SDR_YOUR_ACCOUNTS;
 
 public class BalancesAccountWhithoutDataTask implements Task {

@@ -5,8 +5,6 @@ import static ui.login.LoginPage.DOCUMENT_NUMBER;
 import static ui.login.LoginPage.KEY;
 import static ui.login.LoginPage.LOGIN_BUTTON;
 import static ui.login.LoginPage.TYPE_DOCUMENT;
-import static ui.login.LoginPage.CHECK_TC;
-
 import interactions.ModalDevice;
 import interactions.ValidateDemo;
 import models.UserLoginData;
