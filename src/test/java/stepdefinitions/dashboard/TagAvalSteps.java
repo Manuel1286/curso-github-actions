@@ -15,9 +15,8 @@ public class TagAvalSteps {
     theActorInTheSpotlight().attemptsTo(SelectOptionTag.tag(section));
   }
 
-  @Entonces("debería visualizar el siguiente {string}")
+  @Entonces("deberia visualizar el siguiente {string}")
   public void deberiaVisualizarElSiguiente(String tag) {
     theActorInTheSpotlight().should(seeThat(TagAvalQuestion.match(tag)));
   }
-
 }
