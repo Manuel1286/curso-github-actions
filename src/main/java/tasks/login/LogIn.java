@@ -1,5 +1,10 @@
 package tasks.login;
 
+import static net.serenitybdd.screenplay.Tasks.instrumented;
+import static ui.login.LoginPage.DOCUMENT_NUMBER;
+import static ui.login.LoginPage.KEY;
+import static ui.login.LoginPage.LOGIN_BUTTON;
+import static ui.login.LoginPage.TYPE_DOCUMENT;
 import interactions.ModalDevice;
 import interactions.ValidateDemo;
 import models.UserLoginData;
@@ -9,17 +14,16 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
 
-import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static ui.login.LoginPage.*;
-
-
 public class LogIn implements Task {
 
   private final UserLoginData loginData;
+
   public LogIn(UserLoginData loginData) {
     this.loginData = loginData;
   }
-
+  public static LogIn withData(UserLoginData loginData) {
+    return instrumented(LogIn.class, loginData);
+  }
 
   @Override
   public <T extends Actor> void performAs(T actor) {
@@ -31,13 +35,9 @@ public class LogIn implements Task {
             Enter.theValue(loginData.getDocumentNumber()).into(DOCUMENT_NUMBER),
             Click.on(KEY),
             Enter.theValue(loginData.getPassword()).into(KEY),
+            //Click.on(CHECK_TC),
             Click.on(LOGIN_BUTTON),
-            ModalDevice.modalDevice()
-    );
-
+            ModalDevice.modalDevice());
   }
 
-  public static LogIn withData(UserLoginData loginData) {
-    return instrumented(LogIn.class, loginData);
-  }
 }

@@ -1,22 +1,42 @@
-plugins {
-    id "net.serenity-bdd.serenity-gradle-plugin" version "3.9.8"
-    id 'java'
-    id 'eclipse'
-    id 'idea'
+buildscript {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:3.9.8")
+        classpath("net.serenity-bdd:serenity-single-page-report:3.9.8")
+        classpath "com.diffplug.spotless:spotless-plugin-gradle:6.25.0"
+    }
 }
 
-group = 'org.example'
-version = '1.0-SNAPSHOT'
-
-defaultTasks 'clean', 'test', 'aggregate'
+apply plugin: 'java'
+apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
+apply plugin: "checkstyle"
+apply plugin: 'com.diffplug.spotless'
 
 repositories {
     mavenCentral()
+    mavenLocal()
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
 }
+
+serenity {
+    reports = ["single-page-html"]
+}
+
+group 'org.example'
+version '1.0'
 
 ext {
     serenityCore = '3.9.8'
     appiumVersion = "8.3.0"
+    selenium = '4.8.1'
 }
 
 dependencies {
@@ -30,27 +50,36 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.11.3'
     implementation 'junit:junit:4.13'
-    implementation "com.browserstack:browserstack-local-java:1.0.1"
-}
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
-}
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+    implementation group: 'com.browserstack', name: 'browserstack-local-java', version: '1.1.0'
+    implementation 'io.github.cdimascio:java-dotenv:5.2.2'
+    implementation "org.seleniumhq.selenium:selenium-java:${selenium}"
+    implementation 'com.browserstack:browserstack-java-sdk:1.27.1'
 
-tasks.withType(Test) {
-    systemProperty 'file.encoding', 'UTF-8'
-    environment 'LANG', 'en_US.UTF-8'
 }
 
-tasks.withType(JavaExec) {
-    systemProperty 'file.encoding', 'UTF-8'
-    environment 'LANG', 'en_US.UTF-8'
+checkstyle {
+    toolVersion = '10.12.3'
+    configFile = file('config/checkstyle/sun_checks.xml')
+    ignoreFailures = false
+    showViolations = true
 }
 
-
+spotless {
+    java {
+        googleJavaFormat()
+    }
+}
 
 test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
+}
+
+compileJava.options.encoding = 'utf-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'utf-8'
 }
 
 gradle.startParameter.continueOnFailure = true
