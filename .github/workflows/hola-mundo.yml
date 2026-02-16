@@ -24,7 +24,7 @@ jobs:
         run: ls -R  
 
       - name: Compilar
-        run: java src/Main.java
+        run: java src/main/java/org/example/Main.java
 
       - name: Ejecutar
         run: java -cp src Main
