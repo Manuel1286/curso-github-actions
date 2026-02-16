@@ -16,6 +16,9 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+          
+      - name: Ver archivos en el runner
+        run: ls -R    
 
       - name: Compilar
         run: src/hola_mundo.java
