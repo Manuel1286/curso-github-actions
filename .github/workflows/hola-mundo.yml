@@ -20,8 +20,11 @@ jobs:
       - name: Definir variable
         run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
 
+      - name: Ver estructura del repositorio
+        run: ls -R  
+
       - name: Compilar
-        run: javac Main.java
+        run: javac src/Main.java
 
       - name: Ejecutar
         run: java Main
