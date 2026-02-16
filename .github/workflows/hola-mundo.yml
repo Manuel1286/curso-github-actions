@@ -1,18 +1,14 @@
-name: Ejecutar Proyecto Java con Gradle
+name: Aprendiendo GitHub Actions
+run-name: ¡Estoy aprendiendo GitHub Actions!
 
-on:
-  push:
-    branches:
-      - main
-      - curso-github-actions
-      - feature/**
+on: [push]
 
 jobs:
-  build-and-run:
-    runs-on: ubuntu-latest
+  hola-mundo:
+    runs-on: ubuntu-20.04
 
     steps:
-      - name: Checkout del repositorio
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Configurar Java 17
@@ -20,6 +16,9 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+
+      - name: Definir variable
+        run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
 
       - name: Dar permisos a gradlew
         run: chmod +x gradlew
