@@ -8,6 +8,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
       - name: Definir variable
-        uses: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV 
+        run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV 
       - name: Correr script
         run: java hola-mundo.
