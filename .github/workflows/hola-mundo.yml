@@ -1,0 +1,27 @@
+name: Aprendiendo GitHub Actions
+run-name: ¡Estoy aprendiendo GitHub Actions!
+
+on: [push]
+
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          
+      - name: Ver archivos en el runner
+        run: ls -R    
+
+      - name: Compilar
+        run: src/hola_mundo.java
+
+      - name: Ejecutar
+        run: java hola-mundo.java
