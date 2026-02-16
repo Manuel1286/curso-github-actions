@@ -18,7 +18,7 @@ jobs:
           java-version: '17'
 
       - name: Compilar
-        run: javac hola-mundo.java
+        run: src/hola_mundo.java
 
       - name: Ejecutar
         run: java hola-mundo
