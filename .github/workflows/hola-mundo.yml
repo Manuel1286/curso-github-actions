@@ -1,4 +1,5 @@
 name: Aprendiendo GitHub Actions
+run-name: ¡Estoy aprendiendo GitHub Actions!
 
 on: [push]
 
@@ -16,11 +17,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Ver estructura
-        run: ls -R
+      - name: Definir variable
+        run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
 
       - name: Compilar
-        run: javac src/HolaMundo.java
+        run: javac Main.java
 
       - name: Ejecutar
-        run: java -cp src HolaMundo
+        run: java Main
