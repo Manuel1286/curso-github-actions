@@ -16,5 +16,8 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v3
 
+      - name: Ver estructura (debug)
+        run: ls -R
+
       - name: Ejecutar aplicación
         run: gradle run
