@@ -1,24 +1,14 @@
 name: Aprendiendo GitHub Actions
-
+run-name: ¡Estoy aprendiendo GitHub Actions!
 on:
-  push:
-
+  workflow_dispatch:
 jobs:
   hola-mundo:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Configurar Java 17
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-
-      - name: Dar permisos a gradlew
-        run: chmod +x gradlew
-
-      - name: Ejecutar aplicación
-        run: ./gradlew run
+        uses: actions/checkout@v3
+      - name: definir variables
+        run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
+      - name: Correr script
+        run: java Main.java
