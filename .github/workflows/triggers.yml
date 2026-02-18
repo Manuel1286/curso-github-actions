@@ -4,15 +4,14 @@ on:
   push:
     branches:
       - curso-github-actions
-
   pull_request:
     branches:
       - curso-github-actions
-
+      - feature/github
   workflow_dispatch:
-
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     steps:
