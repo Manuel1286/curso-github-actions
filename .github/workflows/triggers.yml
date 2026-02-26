@@ -1,0 +1,38 @@
+name: CI con 3 Triggers
+
+on:
+  push:
+    branches:
+      - curso-github-actions
+  pull_request:
+    branches:
+      - curso-github-actions
+      - feature/github
+  workflow_dispatch:
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Mostrar información del evento
+        run: |
+          echo "Evento: ${{ github.event_name }}"
+          echo "Rama: ${{ github.ref }}"
+          echo "Usuario: ${{ github.actor }}"
+          echo "Commit: ${{ github.sha }}"
+
+      - name: Solo si es Push
+        if: github.event_name == 'push'
+        run: echo "Este paso solo corre en PUSH 🚀"
+
+      - name: Solo si es Pull Request
+        if: github.event_name == 'pull_request'
+        run: echo "Este paso solo corre en PULL REQUEST 🔎"
+
+      - name: Solo si es ejecución manual
+        if: github.event_name == 'workflow_dispatch'
+        run: echo "Este paso fue ejecutado manualmente 🎯"
