@@ -5,6 +5,7 @@ on:
     branches:
       - curso-github-actions
   pull_request:
+    types: [opened, synchronize, reopened]
     branches:
       - curso-github-actions
       - feature/github
