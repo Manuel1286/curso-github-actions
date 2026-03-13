@@ -22,7 +22,7 @@ on:
 
   env:
     EDAD: ${{ inputs.edad}}
-    NOMBRE: ${{ inputs.name || 'Manuel' }}
+    NOMBRE: ${{ inputs.name}}
 
 jobs:
 
