@@ -15,23 +15,21 @@ on:
       name:
         description: Nombre
         required: true
-        default: 'Manuel'
+        default: Manuel
         type: string
 
 jobs:
 
   mayor:
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.edad >= 18 }}
+    if: ${{ inputs.edad >= 18 || github.event_name == 'push' }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Correr script
-        run: echo "${{ inputs.name }} es mayor de edad"
+        run: echo "Es mayor de edad"
 
   menor:
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.edad < 18 }}
+    if: ${{ inputs.edad < 18 && github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Correr script
         run: echo "${{ inputs.name }} es menor de edad"
