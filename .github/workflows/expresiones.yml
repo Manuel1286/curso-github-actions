@@ -10,12 +10,12 @@ on:
 
     inputs:
       edad:
-        description: 'Edad de la Persona'
+        description: 'Edad'
         required: true
         default: 30
         type: number
       name:
-        description: 'Nombre de la persona'
+        description: 'Nombre'
         required: true
         default: 'Manuel'
         type: string
