@@ -20,10 +20,6 @@ on:
         default: 'Manuel'
         type: string
 
-  env:
-    EDAD: ${{ inputs.edad}}
-    NOMBRE: ${{ inputs.name}}
-
 jobs:
 
   mayor:
@@ -32,7 +28,7 @@ jobs:
 
     steps:
       - name: Correr script
-        run: echo "${{ inputs.Nombre }} es mayor de edad"
+        run: echo "${{ inputs.name }} es mayor de edad"
 
   menor:
     if: ${{ inputs.EDAD < 18 }}
@@ -40,4 +36,4 @@ jobs:
 
     steps:
       - name: Correr script
-        run: echo "${{ inputs.Nombre }} es menor de edad"
+        run: echo "${{ inputs.name }} es menor de edad"
