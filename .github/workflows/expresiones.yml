@@ -8,17 +8,17 @@ on:
   workflow_dispatch:
     inputs:
       edad:
-        description: 'Edad'
+        description: Edad
         required: true
         default: 30
         type: number
       name:
-        description: 'Nombre'
+        description: Nombre
         required: true
         default: 'Manuel'
         type: string
 
-  jobs:
+jobs:
 
   mayor:
     if: ${{ github.event_name == 'workflow_dispatch' && inputs.edad >= 18 }}
