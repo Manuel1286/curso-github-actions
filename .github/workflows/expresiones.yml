@@ -14,6 +14,7 @@ on:
         required: true
         default: 30
         type: integer
+
       name:
         description: 'Nombre'
         required: true
@@ -23,7 +24,7 @@ on:
 jobs:
 
   mayor:
-    if: ${{ inputs.EDAD >= 18 }}
+    if: ${{ inputs.edad >= 18 }}
     runs-on: ubuntu-latest
 
     steps:
@@ -31,7 +32,7 @@ jobs:
         run: echo "${{ inputs.name }} es mayor de edad"
 
   menor:
-    if: ${{ inputs.EDAD < 18 }}
+    if: ${{ inputs.edad < 18 }}
     runs-on: ubuntu-latest
 
     steps:
