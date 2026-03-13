@@ -10,12 +10,14 @@ on:
 
     inputs:
       edad:
-        description: '30'
+        description: 'Edad de la Persona'
         required: true
+        default: 30
         type: number
       name:
-        description: 'Pepe'
+        description: 'Nombre de la persona'
         required: true
+        default: 'Manuel'
         type: string
 
 jobs:
