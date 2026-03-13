@@ -16,7 +16,6 @@ on:
       name:
         description: 'Pepe'
         required: true
-        default: 'juan'
         type: string
 
 jobs:
