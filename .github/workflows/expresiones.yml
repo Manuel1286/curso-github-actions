@@ -10,7 +10,7 @@ on:
       edad:
         description: Edad
         required: true
-        default: 30
+        default: 17
         type: number
       name:
         description: Nombre
