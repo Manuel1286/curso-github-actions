@@ -38,3 +38,4 @@ jobs:
     steps:
       - name: Correr script
         run: echo "${{ inputs.name }} es menor de edad"
+
