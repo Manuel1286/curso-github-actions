@@ -8,13 +8,11 @@ on:
 
   workflow_dispatch:
 
-    edad_1: 20
-
     inputs:
       edad:
         description: 'Edad'
         required: true
-        default: edad_1
+        default: 30
         type: integer
 
       name:
