@@ -5,35 +5,33 @@ on:
   push:
     branches:
       - pruebas-pr
-
   workflow_dispatch:
-
     inputs:
       edad:
         description: 'Edad'
         required: true
         default: 30
-        type: integer
+        type: number
       name:
         description: 'Nombre'
         required: true
-        default: "Manue"
+        default: 'Manuel'
         type: string
 
 jobs:
 
   mayor:
-    if: ${{ inputs.edad >= 18 }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.edad >= 18 }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Correr script
-        run: echo "${{ inputs.Nombre }} es mayor de edad"
+        run: echo "${{ inputs.name }} es mayor de edad"
 
   menor:
-    if: ${{ inputs.edad < 18 }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.edad < 18 }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Correr script
-        run: echo "${{ inputs.Nombre }} es menor de edad"
+        run: echo "${{ inputs.name }} es menor de edad"
