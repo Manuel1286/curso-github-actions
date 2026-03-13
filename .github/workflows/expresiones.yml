@@ -8,11 +8,13 @@ on:
 
   workflow_dispatch:
 
+    edad_1: 20
+
     inputs:
       edad:
         description: 'Edad'
         required: true
-        default: 30
+        default: edad_1
         type: integer
 
       name:
@@ -22,8 +24,6 @@ on:
         type: string
 
 jobs:
-
-  edad : 19
 
   mayor:
     if: ${{ inputs.edad >= 18 }}
