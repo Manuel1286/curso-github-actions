@@ -23,7 +23,7 @@ on:
 jobs:
 
   mayor:
-    if: ${{ inputs.Edad >= 18 }}
+    if: ${{ inputs.edad >= 18 }}
     runs-on: ubuntu-latest
 
     steps:
@@ -31,7 +31,7 @@ jobs:
         run: echo "${{ inputs.Nombre }} es mayor de edad"
 
   menor:
-    if: ${{ inputs.Edad < 18 }}
+    if: ${{ inputs.edad < 18 }}
     runs-on: ubuntu-latest
 
     steps:
