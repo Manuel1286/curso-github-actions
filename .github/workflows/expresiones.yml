@@ -10,7 +10,7 @@ on:
 
     inputs:
       edad:
-        description: '17'
+        description: '30'
         required: true
         type: number
       name:
