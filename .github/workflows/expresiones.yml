@@ -7,13 +7,14 @@ on:
       - pruebas-pr
 
   workflow_dispatch:
+
     inputs:
       edad:
-        description: 'Edad'
+        description: '17'
         required: true
         type: number
       name:
-        description: 'Tu nombre'
+        description: 'Pepe'
         required: true
         default: 'juan'
         type: string
