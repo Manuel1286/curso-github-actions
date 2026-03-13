@@ -23,6 +23,8 @@ on:
 
 jobs:
 
+  edad : 19
+
   mayor:
     if: ${{ inputs.edad >= 18 }}
     runs-on: ubuntu-latest
