@@ -1,0 +1,18 @@
+name: Saludos Usando Variables
+run-name: ¡Estoy aprendiendo a usar variables!
+
+on:
+  push:
+    branches:
+      - pruebas-pr
+env:
+  DIA_DE_LA_SEMANA: Lunes
+
+jobs:
+  Saludo_variables:
+    runs-on: ubuntu-latest
+    env:
+      SALUDO: Hola
+    steps:
+      - name: Saludar
+        run: echo "${{ env.SALUDO }} ${{ vars.NOMBRE }}, hoy es $DIA_DE_LA_SEMANA"

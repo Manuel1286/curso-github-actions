@@ -1,0 +1,14 @@
+name: Contexto
+run-name: ¡Estoy Aprendiendo a usar Contextos!
+
+on:
+  push:
+    branches:
+      - pruebas-pr
+
+jobs:
+  check-main:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Despleganod en la Rama $PRUEBAS-PR "
