@@ -3,12 +3,12 @@
 
 @CDT
 Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajos e información para validar mis saldos detallados del producto CDT permitidos desde la app
-  @CDT1
+  @CDT1 #La automatización se ejecutó de manera exitosa.
   Escenario: Validar que el usuario visualice la informacion de saldos y atajos de su CDT
     Dado que Miriam ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "CDT"
     Entonces debería ver la información de saldos y atajos para "CDT"
-  @CDT2
+  @CDT2 #La automatización se ejecutó de manera exitosa.
   Esquema del escenario: Validar que usuario con CDT lo redireccione a <NameCase>
     Dado que Miriam ingresa a la aplicacion de banca movil
     Cuando ingresa a su producto "CDT"

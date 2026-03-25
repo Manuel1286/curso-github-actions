@@ -1,7 +1,7 @@
 # language:es
 # encoding: UTF-8
 
-@HomeCreditProduct
+@HomeCreditProduct # no se ejecuto
 Característica: Como cliente de banco de Bogotá quiero ver las opciones, atajos e información para validar mis saldos detallados del producto Crédito de vivienda permitidos desde la app
   @HomeCreditProduct1
   Escenario: Validar que el usuario visualice la informacion de saldos y atajos de su credito de vivienda
