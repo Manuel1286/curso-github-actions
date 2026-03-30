@@ -38,7 +38,6 @@ public class LoginStepDef {
         setTheStage(new OnlineCast());
     }
 
-
     @Given("que el usuario se encuentra en la página de login de OrangeHRM Live")
     public void queElUsuarioSeEncuentraEnLaPáginaDeLoginDeOrangeHRMLive() {
 
