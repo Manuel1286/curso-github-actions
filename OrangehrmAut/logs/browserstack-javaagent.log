@@ -1,0 +1,940 @@
+12:22:19.922 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+12:22:19.923 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+12:22:20.009 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:22:20.010 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:22:20.010 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:22:20.011 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+12:22:47.364 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+12:22:47.366 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+12:22:47.452 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:22:47.453 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:22:47.453 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:22:47.453 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+12:22:53.659 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+12:22:53.661 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+12:22:53.743 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:22:53.744 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:22:53.744 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:22:53.744 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+12:24:39.985 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+12:24:39.987 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+12:24:40.073 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:24:40.074 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:24:40.074 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:24:40.074 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+12:25:06.473 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+12:25:06.475 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+12:25:06.563 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:25:06.564 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:25:06.564 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:25:06.564 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:25:49.688 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+12:25:49.689 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+12:25:49.770 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:25:49.772 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:25:49.772 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:25:49.772 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:27:13.136 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+12:27:13.137 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+12:27:13.221 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:27:13.222 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:27:13.222 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:27:13.223 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:37:14.374 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:37:14.375 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:37:14.459 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:37:14.459 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:37:14.459 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:37:14.460 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:38:42.680 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:38:42.681 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:38:42.771 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:38:42.772 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:38:42.772 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:38:42.772 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:38:53.971 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:38:53.972 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:38:54.057 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:38:54.058 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:38:54.058 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:38:54.058 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:39:04.159 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:39:04.160 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:39:04.249 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:39:04.250 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:39:04.250 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:39:04.251 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:40:11.002 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:40:11.004 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:40:11.094 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:40:11.095 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:40:11.095 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:40:11.096 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:41:47.383 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:41:47.385 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:41:47.475 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:41:47.476 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:41:47.476 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:41:47.477 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:42:24.435 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:42:24.436 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:42:24.528 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:42:24.529 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:42:24.529 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:42:24.529 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:42:33.132 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:42:33.133 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:42:33.222 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:42:33.223 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:42:33.223 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:42:33.223 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:43:07.103 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:43:07.104 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:43:07.196 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:43:07.196 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:43:07.197 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:43:07.197 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:44:18.216 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:44:18.217 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:44:18.309 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:44:18.310 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:44:18.310 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:44:18.311 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:44:26.924 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:44:26.925 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:44:27.015 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:44:27.016 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:44:27.016 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:44:27.016 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:53:09.743 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:53:09.744 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:53:09.841 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:53:09.842 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:53:09.842 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:53:09.842 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:53:24.369 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:53:24.370 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:53:24.462 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:53:24.463 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:53:24.463 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:53:24.464 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:55:51.648 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:55:51.649 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:55:51.740 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:55:51.741 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:55:51.741 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:55:51.742 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:56:00.172 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+15:56:00.173 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:56:00.256 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:56:00.257 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+15:56:00.257 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:56:00.257 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+10:41:17.537 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+10:41:17.538 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+10:41:17.629 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:41:17.630 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+10:41:17.630 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+10:41:17.631 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+10:43:11.264 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+10:43:11.265 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+10:43:11.358 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:43:11.359 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+10:43:11.359 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+10:43:11.360 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+10:50:40.474 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+10:50:40.475 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+10:50:40.567 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:50:40.569 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+10:50:40.569 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+10:50:40.569 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+10:50:56.456 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+10:50:56.457 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+10:50:56.544 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:50:56.545 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+10:50:56.545 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+10:50:56.545 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+10:58:31.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+10:58:31.241 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+10:58:31.336 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:58:31.337 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+10:58:31.337 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+10:58:31.337 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:03:09.473 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:03:09.474 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:03:09.560 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:03:09.560 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:03:09.560 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:03:09.561 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:04:37.126 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:04:37.127 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:04:37.219 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:04:37.220 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:04:37.220 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:04:37.220 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:08:18.336 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:08:18.338 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:08:18.427 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:08:18.428 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:08:18.428 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:08:18.428 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:08:33.669 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:08:33.670 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:08:33.759 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:08:33.760 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:08:33.760 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:08:33.760 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:08:51.039 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:08:51.040 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:08:51.126 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:08:51.126 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:08:51.127 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:08:51.127 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:10:11.919 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:10:11.920 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:10:12.012 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:10:12.013 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:10:12.013 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:10:12.013 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:11:00.969 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:11:00.971 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:11:01.059 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:11:01.060 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:11:01.060 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:11:01.061 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:15:06.851 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:15:06.853 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:15:06.948 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:15:06.949 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:15:06.949 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:15:06.950 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:16:01.971 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:16:01.973 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:16:02.064 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:16:02.065 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:16:02.065 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:16:02.065 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:16:07.441 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:16:07.442 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:16:07.528 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:16:07.529 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:16:07.529 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:16:07.529 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:16:17.326 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:16:17.328 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:16:17.409 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:16:17.410 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:16:17.410 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:16:17.410 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:17:10.848 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:17:10.849 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:17:10.939 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:17:10.940 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:17:10.940 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:17:10.940 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:22:04.755 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:22:04.756 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:22:04.841 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:22:04.842 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:22:04.842 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:22:04.843 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:39:15.537 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:39:15.539 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:39:15.625 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:39:15.626 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:39:15.626 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:39:15.626 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:39:42.376 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:39:42.377 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:39:42.469 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:39:42.469 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:39:42.469 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:39:42.470 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:40:04.950 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:40:04.952 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:40:05.040 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:40:05.041 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:40:05.041 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:40:05.041 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:42:48.149 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:42:48.150 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:42:48.241 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:42:48.242 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:42:48.242 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:42:48.243 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:43:29.543 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:43:29.545 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:43:29.635 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:43:29.636 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:43:29.636 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:43:29.636 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:43:55.734 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:43:55.735 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:43:55.822 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:43:55.823 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:43:55.823 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:43:55.823 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:52:37.276 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:52:37.278 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:52:37.362 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:52:37.363 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:52:37.363 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:52:37.364 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+11:53:38.413 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:53:38.415 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:53:38.501 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:53:38.501 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+11:53:38.501 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+11:53:38.502 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:15:10.824 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+12:15:10.825 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:15:10.911 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:15:10.912 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:15:10.912 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:15:10.913 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:17:25.290 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+12:17:25.292 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:17:25.388 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:17:25.388 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:17:25.389 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:17:25.389 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:19:31.193 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+12:19:31.194 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:19:31.284 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut, localrepository=/Users/MMONZO1/.m2/repository, surfire.security.manager=java.lang.SecurityManager}
+12:19:31.285 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:19:31.285 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:19:31.285 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+12:20:13.845 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+12:20:13.846 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:20:13.942 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:20:13.943 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:20:13.943 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:20:13.944 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:24:40.459 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+12:24:40.460 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:24:40.559 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:24:40.560 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:24:40.560 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:24:40.560 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:25:15.977 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+12:25:15.978 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:25:16.067 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:25:16.067 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:25:16.067 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:25:16.068 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:26:40.220 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+12:26:40.221 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:26:40.313 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut, localrepository=/Users/MMONZO1/.m2/repository, surfire.security.manager=java.lang.SecurityManager}
+12:26:40.314 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:26:40.314 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:26:40.314 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+12:34:50.753 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+12:34:50.754 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:34:50.856 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:34:50.858 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+12:34:50.858 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+12:34:50.858 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/MMONZO1/Documents/Aut-Bm/OrangehrmAut. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
