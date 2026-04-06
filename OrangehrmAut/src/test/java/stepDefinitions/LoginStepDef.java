@@ -1,8 +1,8 @@
 package stepDefinitions;
 
-import com.orangehrmlive.Task.CredencialesTask;
+import com.orangehrmlive.Task.Login;
 import com.orangehrmlive.Task.UrlTask;
-import com.orangehrmlive.UI.CredencialesUI;
+import com.orangehrmlive.UI.LoginUI;
 import com.orangehrmlive.UI.DashboardUI;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
@@ -11,7 +11,6 @@ import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.questions.Text;
-import net.serenitybdd.screenplay.questions.Visibility;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -21,7 +20,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static net.bytebuddy.matcher.ElementMatchers.is;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
-import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
 
 public class LoginStepDef {
@@ -56,19 +54,17 @@ public class LoginStepDef {
         );
     }
 
-    @When("ingresa el username {string} y la password {string} luego dar clic en el botón de Continuar")
-    public void ingresaElUsernameYLaPasswordLuegoDarClicEnElBotónDeContinuar(String username, String password) {
+    @When("ingresa el username {string} y la password {string}")
+    public void ingresaElUsernameYLaPassword(String username, String password) {
         System.out.println("USERNAME: " + username);
         System.out.println("PASSWORD: " + password);
 
         theActorInTheSpotlight().attemptsTo(
-                CredencialesTask.conDatos(username, password)
+                Login.conDatos(username, password)
         );
     }
-
-    @Then("el sistema debe mostrar el resultado {string}")
-    public void elSistemaDebeMostrarElResultado(String resultado) {
-
+    @Then("debería ver {string}")
+    public void deberíaVer(String resultado) {
         System.out.println("RESULTADO: " + resultado);
 
         if ("Dashboard".equals(resultado)) {
@@ -77,7 +73,7 @@ public class LoginStepDef {
             );
         } else {
             theActorInTheSpotlight().should(
-                    seeThat(Text.of(CredencialesUI.ERROR), equalTo(resultado))
+                    seeThat(Text.of(LoginUI.ERROR), equalTo(resultado))
 
             );
         }

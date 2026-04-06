@@ -2,18 +2,18 @@ package com.orangehrmlive.UI;
 
 import net.serenitybdd.screenplay.targets.Target;
 
-public class CredencialesUI {
+public class LoginUI {
 
 
-    public static final Target INPUT_USERNAME =
+    public static final Target CAMPO_USUARIO =
             Target.the("Digitar Username")
                     .locatedBy("//input[@name='username']");
 
-    public static final Target INPUT_PASSWORD =
+    public static final Target CAMPO_PASSWORD =
             Target.the("Digitar password")
                     .locatedBy("//input[@name='password']");
 
-    public static final Target BTN_CONTINUAR =
+    public static final Target BOTON_INGRESAR =
             Target.the("Boton de Continuar")
                     .locatedBy("//button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']");
 
